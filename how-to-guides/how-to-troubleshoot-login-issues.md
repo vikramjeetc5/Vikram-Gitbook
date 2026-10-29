@@ -1,228 +1,138 @@
 # How to Troubleshoot Login Issues
 
-### 1. Overview
+Use this guide when you cannot sign in to your company account, an application, or an internal system. Find your problem in the table first, then work through the steps in order. Stop as soon as you can sign in.
 
-This guide provides step-by-step instructions for troubleshooting common login issues when accessing company accounts, applications, devices, and internal systems.
+{% hint style="info" %}
+Avoid repeated sign-in attempts. Too many failures can lock your account.
+{% endhint %}
 
-Login problems may occur because of incorrect credentials, expired passwords, account lockouts, multifactor authentication (MFA) failures, network connectivity issues, or insufficient access permissions.
+| Owner         | Document type | Version | Last updated    |
+| ------------- | ------------- | ------- | --------------- |
+| IT Department | How-to guide  | 1.0     | 29 October 2026 |
 
-Follow the troubleshooting steps in this guide to identify and resolve the issue securely. If the problem persists, contact the IT Support team for assistance.
+### Find Your Problem
 
-### 2. Purpose
+| What you see                                      | Likely cause                                     | What to try first                                                                      |
+| ------------------------------------------------- | ------------------------------------------------ | -------------------------------------------------------------------------------------- |
+| Incorrect username or password                    | Typo, Caps Lock, or an expired password          | Check your details. If you forgot it or it expired, see **How to Reset Your Password** |
+| Account locked or disabled                        | Too many failed attempts, or an inactive account | Stop trying and contact IT Support                                                     |
+| MFA code not accepted, or no prompt arrives       | Phone offline, or the wrong method               | Check your phone's connection and authenticator app, or use another method             |
+| The login page will not load                      | Network or VPN problem                           | Check your internet, then connect the VPN (see **How to Configure VPN**)               |
+| You sign in, but see "access denied"              | Missing permission or licence                    | Follow **How to Request Access**                                                       |
+| Repeated sign-in prompts, or sessions that expire | Browser cache or cookies                         | Try a private window (step 5 below)                                                    |
+| One application will not sign you in              | Application problem or service outage            | Check the IT status page, then contact IT Support                                      |
 
-This guide helps employees:
+{% hint style="danger" %}
+**Got an MFA request you did not start?** Do not approve it. Report it to IT Support or the security team straight away, because someone may have your password.
+{% endhint %}
 
-* Identify common causes of login failures.
-* Troubleshoot company account authentication issues.
-* Resolve password and MFA-related problems.
-* Check network and application connectivity.
-* Determine when IT Support intervention is required.
-* Restore access while following company security requirements.
 
-### 3. Common Login Issues
 
-Login issues may include:
+### Quick Decision Guide
 
-* Incorrect username or password.
-* Forgotten or expired password.
-* Locked or disabled account.
-* MFA verification failure.
-* Unable to access the company login portal.
-* Application sign-in errors.
-* VPN connection or authentication failure.
-* Access denied or insufficient permissions.
-* Browser-related login problems.
-* Repeated login prompts or unexpected session expiration.
+```mermaid
+flowchart LR
+    A[Cannot<br/>sign in] --> B{Password<br/>correct?}
+    B -- No --> C[Reset<br/>password]
+    B -- Yes --> D{MFA<br/>works?}
+    D -- No --> E[Check MFA<br/>or contact IT]
+    D -- Yes --> F{Internet and<br/>VPN OK?}
+    F -- No --> G[Fix connection<br/>or VPN]
+    F -- Yes --> H[Contact<br/>IT Support]
+```
 
-### 4. Step-by-Step Troubleshooting
+### Troubleshooting Steps
 
-#### Step 1: Verify Your Login Credentials
+{% stepper %}
+{% step %}
+#### Check your credentials
 
-Incorrect login information is one of the most common causes of authentication failure.
+Make sure you are using your company username or email on the official sign-in page. Look for typing errors, extra spaces, and Caps Lock, then try once more.
+{% endstep %}
 
-1. Confirm that you are using your official company username or email address.
-2. Check for typing errors, extra spaces, or an incorrect keyboard layout.
-3. Verify that Caps Lock is not enabled unintentionally.
-4. Ensure that you are signing in through the correct company login page.
-5. Enter your password carefully and try again.
+{% step %}
+#### Reset your password if needed
 
-Avoid repeated login attempts if the account may become locked after multiple failures.
+If you forgot it or it has expired, use the official reset page and follow **How to Reset Your Password**. Use only the approved recovery process.
+{% endstep %}
 
-**If the issue persists:** Follow the How to Reset Your Password guide or contact IT Support.
+{% step %}
+#### Check multifactor authentication (MFA)
 
-#### Step 2: Reset Your Password if Necessary
+Use your registered method and check that your phone or authenticator app is online. If you have another approved method, try it. If you lost your device, contact IT Support for identity verification.
+{% endstep %}
 
-If you have forgotten your password or it has expired:
+{% step %}
+#### Check your connection
 
-1. Open the official company password reset portal.
-2. Select **Forgot Password** or the equivalent option.
-3. Enter your company username or email address.
-4. Complete the required identity verification steps.
-5. Set a new password that meets company requirements.
-6. Return to the sign-in page and try again.
+Open a public website to confirm that your internet works. If the system needs the VPN, connect with the approved configuration (see **How to Configure VPN**) and try again.
+{% endstep %}
 
-Use only the approved password recovery process.
+{% step %}
+#### Rule out the browser
 
-**Password Reset Portal:** \[Insert Password Reset URL]
+Refresh the page, restart the browser, and check that it is up to date. If company policy allows, try a private window. If that works, the problem is probably stored cookies or cache for that site. Clearing them may sign you out of other services.
+{% endstep %}
 
-Refer to the **How to Reset Your Password** guide for detailed instructions.
+{% step %}
+#### Check your access and service status
 
-#### Step 3: Check Multifactor Authentication (MFA)
+Confirm that you are using the right company account and that the application is meant for your role. If you need extra permission, follow **How to Request Access**. If several services are down, check the IT status page and ask a colleague whether they see the same thing. Do not keep changing your password during an outage.
+{% endstep %}
+{% endstepper %}
 
-If your company requires MFA, a failed verification step may prevent you from signing in.
+{% hint style="warning" %}
+Never disable security extensions, endpoint protection, or browser security settings to fix a login problem. Do not use another employee's account either.
+{% endhint %}
 
-1. Confirm that you are using your registered authentication method.
-2. Check your authenticator application or registered device.
-3. Verify that your device has the necessary network connectivity.
-4. Follow the sign-in prompt to complete the verification process.
-5. If multiple approved verification methods are available, use an alternative method configured for your account.
+### More Help
 
-If you receive an unexpected authentication request that you did not initiate, do not approve it. Report it to IT Support or the security team.
+<details>
 
-If you have lost access to your registered device or authentication method, contact IT Support for identity verification and recovery assistance.
+<summary>I lost my phone or my authenticator app</summary>
 
-#### Step 4: Check Your Network Connection
+Contact IT Support. They will verify your identity and help you set up MFA again. Do not try to work around it.
 
-A network issue may prevent your device from reaching the company login service.
+</details>
 
-1. Confirm that your device is connected to the internet.
-2. Open an approved external website to check basic connectivity.
-3. If you are working remotely, verify that your network connection is stable.
-4. If the application requires a VPN, connect using the approved company VPN configuration.
-5. Retry the login after confirming connectivity.
+<details>
 
-If the internet works but a specific company service remains unavailable, the problem may be related to application access, VPN connectivity, or a service outage.
+<summary>It works in a private window but not in my normal browser</summary>
 
-Refer to the **How to Configure VPN** guide if VPN access is required.
+Your normal browser probably holds old cookies or cached data for that site. Clearing them for that site alone should fix it. On a managed browser, follow company guidance first.
 
-#### Step 5: Verify Account Status
+</details>
 
-Your account may be locked, disabled, or awaiting activation.
+<details>
 
-1. Check whether the sign-in page displays an account-related error.
-2. Confirm that you have completed any required account activation steps.
-3. Check whether you have received an official notification about account access or password expiration.
-4. Avoid repeatedly attempting to sign in if the account appears locked.
-5. Contact IT Support to verify your account status.
+<summary>My account still shows as locked</summary>
 
-Do not attempt to bypass account restrictions or use another employee's account.
+Wait for any lockout timer to end, then try again once. If it stays locked, contact IT Support. Do not keep retrying.
 
-#### Step 6: Troubleshoot Browser-Related Issues
+</details>
 
-If you can sign in to other services but cannot access a specific web application, the issue may be browser-related.
+### Security Rules
 
-1. Refresh the login page.
-2. Close the browser and reopen it.
-3. Confirm that you are using a supported and updated browser.
-4. Try accessing the application through the official company URL.
-5. If permitted by company policy, test the application in a private or incognito window.
-6. If the application works in the private window, review the browser's cache and cookies for the affected site.
-
-Before clearing cookies or site data, be aware that this may sign you out of other services. Follow company guidance when using managed browsers.
-
-Do not disable security extensions, endpoint protection, or browser security settings to resolve a login issue.
-
-#### Step 7: Check Application Access and Permissions
-
-If you can sign in successfully but cannot open a particular application or resource:
-
-1. Confirm that the application is intended for your role.
-2. Verify that you are using the correct company account.
-3. Check whether the application requires a separate license or access approval.
-4. Review any access-denied message displayed.
-5. Submit a software access request if additional permissions are required.
-
-Refer to the **How to Request Software Access** guide for instructions.
-
-#### Step 8: Check for Service or System Issues
-
-Sometimes login failures occur because a company service is temporarily unavailable.
-
-1. Check the company's approved IT status page or internal announcements, if available.
-2. Confirm whether colleagues are experiencing the same issue, without sharing account details.
-3. Note the application name and the time the issue occurred.
-4. Avoid repeatedly changing passwords if the issue appears to be a service outage.
-5. Contact IT Support if the service remains unavailable or no status information is available.
-
-### 5. Common Login Errors and Solutions
-
-| Error or Symptom                          | Recommended Action                                                                        |
-| ----------------------------------------- | ----------------------------------------------------------------------------------------- |
-| Incorrect username or password            | Verify the username and password, then use the approved reset process if necessary.       |
-| Password expired                          | Follow the official password change or reset instructions.                                |
-| Account locked                            | Stop repeated attempts and contact IT Support.                                            |
-| MFA code rejected                         | Verify the registered authentication method and follow the approved recovery process.     |
-| Unable to receive MFA prompt              | Check the registered device and network connectivity. Never approve an unexpected prompt. |
-| Login page unavailable                    | Check internet connectivity and the official service status page.                         |
-| Access denied                             | Request the required permissions through the approved process.                            |
-| Application repeatedly asks for sign-in   | Reopen the application and follow approved browser or session troubleshooting steps.      |
-| VPN authentication failed                 | Verify network connectivity and VPN configuration, then contact IT Support if needed.     |
-| Account not activated                     | Follow the official activation instructions or contact IT Support.                        |
-| Login works on one device but not another | Check the affected device's network, browser, and configuration.                          |
-| Suspicious login notification             | Do not approve unexpected requests; report the incident promptly.                         |
-
-### 6. Security Guidelines
-
-When troubleshooting login issues, employees must:
-
+{% hint style="warning" %}
 * Use only official company sign-in pages.
-* Never share passwords, MFA codes, recovery codes, or authentication tokens.
-* Avoid repeated login attempts when an account may be locked.
-* Never approve MFA prompts that you did not initiate.
-* Avoid entering credentials on unfamiliar websites.
-* Never use another employee's credentials to bypass a login issue.
-* Report suspicious sign-in notifications or suspected account compromise promptly.
-* Follow company policies when handling account recovery and authentication problems.
+* Never share your password, MFA codes, recovery codes, or tokens.
+* Never approve an MFA prompt you did not start.
+* Report suspicious sign-in notifications or a suspected account compromise promptly.
+{% endhint %}
 
-If you suspect your account has been compromised, contact IT Support or the designated security team immediately and follow their instructions.
+If you suspect that your account has been compromised, contact IT Support or the security team immediately and follow their instructions.
 
-### 7. When to Contact IT Support
+### Contact IT Support
 
-Contact IT Support if:
+Contact IT Support if you cannot sign in after these steps, your account is locked or inactive, you cannot finish password recovery or MFA, errors keep appearing, you lack access you should have, several services are down, or you suspect unauthorized access.
 
-* You cannot sign in after following the troubleshooting steps.
-* Your account appears locked, disabled, or inactive.
-* You cannot complete password recovery or MFA verification.
-* You receive persistent authentication errors.
-* You cannot access an application for which you should have permission.
-* Multiple company services are unavailable.
-* You suspect unauthorized access to your account.
+| Contact         | Details                                  |
+| --------------- | ---------------------------------------- |
+| Email           | it-support@vctechnologies.example        |
+| Helpdesk portal | https://helpdesk.vctechnologies.example  |
+| Support hours   | Monday to Friday, 9:00 AM to 6:00 PM IST |
+| Security issues | security@vctechnologies.example          |
 
-**IT Support Details**
-
-* Support Email: \[IT Support Email]
-* Helpdesk Portal: \[Helpdesk URL]
-* Support Hours: \[Support Hours]
-* Emergency Security Contact: \[Security Contact, if applicable]
-
-When submitting a ticket, include:
-
-* Your company username or email address.
-* The name of the affected application or service.
-* The approximate time the issue occurred.
-* The exact error message, if available.
-* The troubleshooting steps you have already tried.
-* Your device operating system and browser, if relevant.
-
-Do not include your password, MFA code, recovery code, or other authentication secrets in a support ticket.
-
-### 8. Related Documentation
-
-Refer to the following guides for additional assistance:
-
-* **How to Reset Your Password** — For forgotten or expired passwords.
-* **How to Configure VPN** — For remote access and VPN connectivity issues.
-* **How to Request Software Access** — For missing application permissions.
-* **First-Day Setup** — For initial device and account configuration.
-* **Tools and Software** — For approved applications and access information.
-* **Company Policies** — For account security and acceptable-use requirements.
-
-***
-
-**Document Owner:** IT Department
-
-**Document Type:** How-To Guide / Login Troubleshooting
-
-**Version:** 1.0
-
-**Last Updated:** \[Date]
+{% hint style="info" %}
+In your ticket, include your username or email, the application, the time of the problem, the exact error message, what you already tried, and your device operating system and browser. Never include passwords, MFA codes, or recovery codes.
+{% endhint %}
