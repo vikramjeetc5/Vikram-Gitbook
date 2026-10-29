@@ -1,6 +1,6 @@
 # Company Policies
 
-#### 1. Overview <a href="#id-1.-overview" id="id-1.-overview"></a>
+### 1. Overview
 
 Welcome to **\[Company Name]**.
 
@@ -8,7 +8,7 @@ This document outlines the essential workplace, IT, and information security pol
 
 All employees must familiarize themselves with the policies relevant to their roles and responsibilities. Where a formal company policy, employment agreement, or applicable law establishes additional or different requirements, the official document and applicable requirements take precedence.
 
-#### 2. Purpose <a href="#id-2.-purpose" id="id-2.-purpose"></a>
+### 2. Purpose
 
 The purpose of these policies is to:
 
@@ -19,7 +19,7 @@ The purpose of these policies is to:
 * Support a respectful, safe, and inclusive workplace.
 * Ensure employees understand how to report incidents, concerns, and policy violations.
 
-#### 3. Code of Conduct and Professional Behavior <a href="#id-3.-code-of-conduct-and-professional-behavior" id="id-3.-code-of-conduct-and-professional-behavior"></a>
+### 3. Code of Conduct and Professional Behavior
 
 All employees are expected to act professionally, responsibly, and respectfully in the workplace.
 
@@ -35,7 +35,7 @@ Employees must:
 
 The company aims to maintain a workplace where employees can work safely, collaborate effectively, and raise concerns without fear of retaliation.
 
-#### 4. IT Asset and Device Usage Policy <a href="#id-4.-it-asset-and-device-usage-policy" id="id-4.-it-asset-and-device-usage-policy"></a>
+### 4. IT Asset and Device Usage Policy
 
 Company-issued devices and equipment are provided for authorized business activities.
 
@@ -51,7 +51,7 @@ Employees must:
 
 Employees must not modify device security settings, disable required security software, or attempt to bypass IT restrictions without authorization.
 
-#### 5. Password and Account Security Policy <a href="#id-5.-password-and-account-security-policy" id="id-5.-password-and-account-security-policy"></a>
+### 5. Password and Account Security Policy
 
 Every employee is responsible for protecting their company accounts and authentication credentials.
 
@@ -67,7 +67,7 @@ Employees must:
 
 Employees must follow the company's approved account recovery process if they forget their password or lose access to an authentication method.
 
-#### 6. Email and Internet Usage Policy <a href="#id-6.-email-and-internet-usage-policy" id="id-6.-email-and-internet-usage-policy"></a>
+### 6. Email and Internet Usage Policy
 
 Company email and internet access must be used responsibly and in accordance with business and security requirements.
 
@@ -84,7 +84,7 @@ Employees must:
 
 Suspicious emails, unexpected login prompts, and potential phishing attempts must be reported through the designated security reporting process.
 
-#### 7. Data Protection and Confidentiality Policy <a href="#id-7.-data-protection-and-confidentiality-policy" id="id-7.-data-protection-and-confidentiality-policy"></a>
+### 7. Data Protection and Confidentiality Policy
 
 Employees may access confidential information as part of their job responsibilities. Such information must be handled securely and shared only with authorized individuals.
 
@@ -109,7 +109,7 @@ Employees must:
 
 Suspected data loss, accidental disclosure, or unauthorized access must be reported promptly.
 
-#### 8. Software Installation and Acceptable Use Policy <a href="#id-8.-software-installation-and-acceptable-use-policy" id="id-8.-software-installation-and-acceptable-use-policy"></a>
+### 8. Software Installation and Acceptable Use Policy
 
 Only authorized and appropriately licensed software may be used for company business.
 
@@ -125,7 +125,7 @@ Employees must:
 
 Employees must not use company systems for unlawful activities, unauthorized access, malicious activities, or any activity that compromises the confidentiality, integrity, or availability of company resources.
 
-#### 9. Network and Remote Access Policy <a href="#id-9.-network-and-remote-access-policy" id="id-9.-network-and-remote-access-policy"></a>
+### 9. Network and Remote Access Policy
 
 Access to company networks and internal systems must follow the organization's approved security procedures.
 
@@ -141,7 +141,7 @@ Employees must:
 
 Employees must not attempt to bypass network restrictions, scan systems without authorization, or access resources beyond their approved permissions.
 
-#### 10. Physical Security and Clean Desk Policy <a href="#id-10.-physical-security-and-clean-desk-policy" id="id-10.-physical-security-and-clean-desk-policy"></a>
+### 10. Physical Security and Clean Desk Policy
 
 Employees must take reasonable steps to protect company equipment, documents, and information from unauthorized access.
 
@@ -156,7 +156,7 @@ Employees should:
 
 Visitors and contractors must follow applicable access and escort procedures.
 
-#### 11. Attendance, Leave, and Workplace Expectations <a href="#id-11.-attendance-leave-and-workplace-expectations" id="id-11.-attendance-leave-and-workplace-expectations"></a>
+### 11. Attendance, Leave, and Workplace Expectations
 
 Employees are expected to follow the organization's official attendance, working-hours, leave, and time-reporting procedures.
 
@@ -171,7 +171,7 @@ Employees should:
 
 For specific entitlements, approval timelines, and procedures, refer to the official HR policies or contact the HR team.
 
-#### 12. Remote Work Policy <a href="#id-12.-remote-work-policy" id="id-12.-remote-work-policy"></a>
+### 12. Remote Work Policy
 
 Employees approved to work remotely must maintain appropriate security, availability, and professionalism.
 
@@ -186,7 +186,7 @@ Employees must:
 
 Remote work arrangements remain subject to company approval and applicable workplace policies.
 
-#### 13. Artificial Intelligence and External Tools <a href="#id-13.-artificial-intelligence-and-external-tools" id="id-13.-artificial-intelligence-and-external-tools"></a>
+### 13. Artificial Intelligence and External Tools
 
 Employees must use artificial intelligence (AI) tools and external online services in accordance with company policy.
 
@@ -199,7 +199,7 @@ Unless expressly approved, employees must not:
 
 Only company-approved AI tools and permitted use cases should be used for work involving company information.
 
-#### 14. Security Incident and Issue Reporting <a href="#id-14.-security-incident-and-issue-reporting" id="id-14.-security-incident-and-issue-reporting"></a>
+### 14. Security Incident and Issue Reporting
 
 Employees must promptly report suspected or confirmed security incidents, including:
 
@@ -221,7 +221,7 @@ Employees must promptly report suspected or confirmed security incidents, includ
 
 Employees should report incidents promptly and honestly, even when the incident may have resulted from an accidental mistake.
 
-#### 15. Privacy and Monitoring <a href="#id-15.-privacy-and-monitoring" id="id-15.-privacy-and-monitoring"></a>
+### 15. Privacy and Monitoring
 
 Company systems, devices, networks, and accounts may be subject to monitoring or auditing where permitted by applicable law and company policy.
 
@@ -229,7 +229,7 @@ Such monitoring may support security, compliance, troubleshooting, and protectio
 
 Employees must follow applicable privacy and data-handling requirements and should consult the official privacy notice or HR documentation for details about the information collected, the purposes of processing, and applicable employee rights.
 
-#### 16. Policy Violations <a href="#id-16.-policy-violations" id="id-16.-policy-violations"></a>
+### 16. Policy Violations
 
 Failure to comply with company policies may result in corrective or disciplinary action, in accordance with applicable law, employment agreements, and established company procedures.
 
@@ -237,7 +237,7 @@ Depending on the circumstances, the company may restrict access to systems, requ
 
 Employees are encouraged to raise concerns promptly through the appropriate reporting channels.
 
-#### 17. Employee Acknowledgment <a href="#id-17.-employee-acknowledgment" id="id-17.-employee-acknowledgment"></a>
+### 17. Employee Acknowledgment
 
 All employees are responsible for reading, understanding, and following the policies applicable to their roles.
 
@@ -251,7 +251,7 @@ Please confirm that you have reviewed the relevant onboarding documentation and 
 
 **Acknowledgment:** \[Complete the company's approved acknowledgment process or provide confirmation as instructed by HR.]
 
-#### 18. Contacts and Related Documentation <a href="#id-18.-contacts-and-related-documentation" id="id-18.-contacts-and-related-documentation"></a>
+### 18. Contacts and Related Documentation
 
 For questions or additional assistance, contact the relevant team.
 

@@ -1,14 +1,12 @@
 # Welcome
 
-### Welcome to ABCompany <a href="#welcome-to-abcompany" id="welcome-to-abcompany"></a>
-
-Welcome to ABCompan&#x79;**!**
+## Welcome to ABCompany!!
 
 We are delighted to have you on board. This documentation portal is designed to help you get familiar with our organization, IT environment, tools, processes, and workplace policies.
 
 Whether you are joining us for the first time or need to refer back to internal guidelines, this portal will serve as your central resource for essential employee and IT information.
 
-#### Getting Started <a href="#getting-started" id="getting-started"></a>
+### Getting Started
 
 Your first day is the beginning of your journey with us. To help you settle in smoothly, we have created a dedicated **Getting Started** folder containing the essential information you need to begin your work.
 
@@ -20,7 +18,7 @@ Inside this folder, you will find:
 
 We recommend reviewing these documents in order and completing the required setup steps before beginning your regular work activities.
 
-#### How to Use This Documentation Portal <a href="#how-to-use-this-documentation-portal" id="how-to-use-this-documentation-portal"></a>
+### How to Use This Documentation Portal
 
 This portal is organized into dedicated sections to help you find the information you need quickly.
 
@@ -31,13 +29,13 @@ This portal is organized into dedicated sections to help you find the informatio
 
 _Note: The sections listed above can be adjusted to match the actual folders and pages available in this portal._
 
-#### Need Help? <a href="#need-help" id="need-help"></a>
+### Need Help?
 
 If you encounter any issues with account access, workstation setup, software installation, or other IT-related tasks, please contact the IT Support team through \[Support Email / Helpdesk Portal].
 
 For questions related to onboarding, HR documentation, or employee policies, please reach out to \[HR Contact / HR Team].
 
-#### Our Commitment <a href="#our-commitment" id="our-commitment"></a>
+### Our Commitment
 
 We believe that clear documentation helps everyone work more efficiently, securely, and confidently. This portal will be maintained as a reliable source of information to support your onboarding and day-to-day activities.
 
