@@ -1,6 +1,6 @@
 # How to Troubleshoot Login Issues
 
-#### 1. Overview <a href="#id-1.-overview" id="id-1.-overview"></a>
+### 1. Overview
 
 This guide provides step-by-step instructions for troubleshooting common login issues when accessing company accounts, applications, devices, and internal systems.
 
@@ -8,7 +8,7 @@ Login problems may occur because of incorrect credentials, expired passwords, ac
 
 Follow the troubleshooting steps in this guide to identify and resolve the issue securely. If the problem persists, contact the IT Support team for assistance.
 
-#### 2. Purpose <a href="#id-2.-purpose" id="id-2.-purpose"></a>
+### 2. Purpose
 
 This guide helps employees:
 
@@ -19,7 +19,7 @@ This guide helps employees:
 * Determine when IT Support intervention is required.
 * Restore access while following company security requirements.
 
-#### 3. Common Login Issues <a href="#id-3.-common-login-issues" id="id-3.-common-login-issues"></a>
+### 3. Common Login Issues
 
 Login issues may include:
 
@@ -34,9 +34,9 @@ Login issues may include:
 * Browser-related login problems.
 * Repeated login prompts or unexpected session expiration.
 
-#### 4. Step-by-Step Troubleshooting <a href="#id-4.-step-by-step-troubleshooting" id="id-4.-step-by-step-troubleshooting"></a>
+### 4. Step-by-Step Troubleshooting
 
-**Step 1: Verify Your Login Credentials**
+#### Step 1: Verify Your Login Credentials
 
 Incorrect login information is one of the most common causes of authentication failure.
 
@@ -50,7 +50,7 @@ Avoid repeated login attempts if the account may become locked after multiple fa
 
 **If the issue persists:** Follow the How to Reset Your Password guide or contact IT Support.
 
-**Step 2: Reset Your Password if Necessary**
+#### Step 2: Reset Your Password if Necessary
 
 If you have forgotten your password or it has expired:
 
@@ -67,7 +67,7 @@ Use only the approved password recovery process.
 
 Refer to the **How to Reset Your Password** guide for detailed instructions.
 
-**Step 3: Check Multifactor Authentication (MFA)**
+#### Step 3: Check Multifactor Authentication (MFA)
 
 If your company requires MFA, a failed verification step may prevent you from signing in.
 
@@ -81,7 +81,7 @@ If you receive an unexpected authentication request that you did not initiate, d
 
 If you have lost access to your registered device or authentication method, contact IT Support for identity verification and recovery assistance.
 
-**Step 4: Check Your Network Connection**
+#### Step 4: Check Your Network Connection
 
 A network issue may prevent your device from reaching the company login service.
 
@@ -95,7 +95,7 @@ If the internet works but a specific company service remains unavailable, the pr
 
 Refer to the **How to Configure VPN** guide if VPN access is required.
 
-**Step 5: Verify Account Status**
+#### Step 5: Verify Account Status
 
 Your account may be locked, disabled, or awaiting activation.
 
@@ -107,7 +107,7 @@ Your account may be locked, disabled, or awaiting activation.
 
 Do not attempt to bypass account restrictions or use another employee's account.
 
-**Step 6: Troubleshoot Browser-Related Issues**
+#### Step 6: Troubleshoot Browser-Related Issues
 
 If you can sign in to other services but cannot access a specific web application, the issue may be browser-related.
 
@@ -122,7 +122,7 @@ Before clearing cookies or site data, be aware that this may sign you out of oth
 
 Do not disable security extensions, endpoint protection, or browser security settings to resolve a login issue.
 
-**Step 7: Check Application Access and Permissions**
+#### Step 7: Check Application Access and Permissions
 
 If you can sign in successfully but cannot open a particular application or resource:
 
@@ -134,7 +134,7 @@ If you can sign in successfully but cannot open a particular application or reso
 
 Refer to the **How to Request Software Access** guide for instructions.
 
-**Step 8: Check for Service or System Issues**
+#### Step 8: Check for Service or System Issues
 
 Sometimes login failures occur because a company service is temporarily unavailable.
 
@@ -144,59 +144,24 @@ Sometimes login failures occur because a company service is temporarily unavaila
 4. Avoid repeatedly changing passwords if the issue appears to be a service outage.
 5. Contact IT Support if the service remains unavailable or no status information is available.
 
-#### 5. Common Login Errors and Solutions <a href="#id-5.-common-login-errors-and-solutions" id="id-5.-common-login-errors-and-solutions"></a>
+### 5. Common Login Errors and Solutions
 
-Error or SymptomRecommended Action
+| Error or Symptom                          | Recommended Action                                                                        |
+| ----------------------------------------- | ----------------------------------------------------------------------------------------- |
+| Incorrect username or password            | Verify the username and password, then use the approved reset process if necessary.       |
+| Password expired                          | Follow the official password change or reset instructions.                                |
+| Account locked                            | Stop repeated attempts and contact IT Support.                                            |
+| MFA code rejected                         | Verify the registered authentication method and follow the approved recovery process.     |
+| Unable to receive MFA prompt              | Check the registered device and network connectivity. Never approve an unexpected prompt. |
+| Login page unavailable                    | Check internet connectivity and the official service status page.                         |
+| Access denied                             | Request the required permissions through the approved process.                            |
+| Application repeatedly asks for sign-in   | Reopen the application and follow approved browser or session troubleshooting steps.      |
+| VPN authentication failed                 | Verify network connectivity and VPN configuration, then contact IT Support if needed.     |
+| Account not activated                     | Follow the official activation instructions or contact IT Support.                        |
+| Login works on one device but not another | Check the affected device's network, browser, and configuration.                          |
+| Suspicious login notification             | Do not approve unexpected requests; report the incident promptly.                         |
 
-Incorrect username or password
-
-Verify the username and password, then use the approved reset process if necessary.
-
-Password expired
-
-Follow the official password change or reset instructions.
-
-Account locked
-
-Stop repeated attempts and contact IT Support.
-
-MFA code rejected
-
-Verify the registered authentication method and follow the approved recovery process.
-
-Unable to receive MFA prompt
-
-Check the registered device and network connectivity. Never approve an unexpected prompt.
-
-Login page unavailable
-
-Check internet connectivity and the official service status page.
-
-Access denied
-
-Request the required permissions through the approved process.
-
-Application repeatedly asks for sign-in
-
-Reopen the application and follow approved browser or session troubleshooting steps.
-
-VPN authentication failed
-
-Verify network connectivity and VPN configuration, then contact IT Support if needed.
-
-Account not activated
-
-Follow the official activation instructions or contact IT Support.
-
-Login works on one device but not another
-
-Check the affected device's network, browser, and configuration.
-
-Suspicious login notification
-
-Do not approve unexpected requests; report the incident promptly.
-
-#### 6. Security Guidelines <a href="#id-6.-security-guidelines" id="id-6.-security-guidelines"></a>
+### 6. Security Guidelines
 
 When troubleshooting login issues, employees must:
 
@@ -211,7 +176,7 @@ When troubleshooting login issues, employees must:
 
 If you suspect your account has been compromised, contact IT Support or the designated security team immediately and follow their instructions.
 
-#### 7. When to Contact IT Support <a href="#id-7.-when-to-contact-it-support" id="id-7.-when-to-contact-it-support"></a>
+### 7. When to Contact IT Support
 
 Contact IT Support if:
 
@@ -241,7 +206,7 @@ When submitting a ticket, include:
 
 Do not include your password, MFA code, recovery code, or other authentication secrets in a support ticket.
 
-#### 8. Related Documentation <a href="#id-8.-related-documentation" id="id-8.-related-documentation"></a>
+### 8. Related Documentation
 
 Refer to the following guides for additional assistance:
 

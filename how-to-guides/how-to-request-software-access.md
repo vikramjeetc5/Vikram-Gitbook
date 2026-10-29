@@ -1,6 +1,6 @@
 # How to Request Software Access
 
-#### 1. Overview <a href="#id-1.-overview" id="id-1.-overview"></a>
+### 1. Overview
 
 Employees may require access to specific software applications, platforms, and tools to perform their assigned responsibilities. Access may involve application installation, account provisioning, license assignment, or permission to use particular features or resources.
 
@@ -8,7 +8,7 @@ This guide explains how to submit a software access request, obtain the necessar
 
 All software requests must follow the company's approved IT procedures and security requirements.
 
-#### 2. Purpose <a href="#id-2.-purpose" id="id-2.-purpose"></a>
+### 2. Purpose
 
 This guide helps employees:
 
@@ -18,7 +18,7 @@ This guide helps employees:
 * Track pending and approved requests.
 * Resolve common software access issues.
 
-#### 3. When Should You Request Software Access? <a href="#id-3.-when-should-you-request-software-access" id="id-3.-when-should-you-request-software-access"></a>
+### 3. When Should You Request Software Access?
 
 Submit a software access request when:
 
@@ -32,7 +32,7 @@ Submit a software access request when:
 
 Before submitting a request, check whether the software is already available through your company's approved software portal.
 
-#### 4. Prerequisites <a href="#id-4.-prerequisites" id="id-4.-prerequisites"></a>
+### 4. Prerequisites
 
 Before submitting a request, ensure that you have:
 
@@ -46,9 +46,9 @@ Before submitting a request, ensure that you have:
 
 For paid applications or specialized software, additional approval may be required from your manager, the software owner, IT, or the relevant budget owner.
 
-#### 5. Step-by-Step Process <a href="#id-5.-step-by-step-process" id="id-5.-step-by-step-process"></a>
+### 5. Step-by-Step Process
 
-**Step 1: Identify the Required Software**
+#### Step 1: Identify the Required Software
 
 Determine which application or tool you need.
 
@@ -61,7 +61,7 @@ Before submitting your request:
 
 If you are unsure which tool is appropriate, consult your manager or IT Support.
 
-**Step 2: Open the Software Request Portal**
+#### Step 2: Open the Software Request Portal
 
 Access the company's designated IT helpdesk or service request portal.
 
@@ -79,57 +79,28 @@ The available categories may differ depending on your organization's IT service 
 
 If your company does not use a self-service portal, contact IT Support through the approved request channel.
 
-**Step 3: Complete the Request Form**
+#### Step 3: Complete the Request Form
 
 Provide accurate information so the IT team can assess and process your request.
 
 Recommended request details include:
 
-FieldInformation to Provide
-
-Employee Name
-
-Your full name as registered with the company.
-
-Company Email
-
-Your official company email address.
-
-Department
-
-Your department or business unit.
-
-Application Name
-
-The software or platform you need.
-
-Request Type
-
-Installation, account access, license assignment, or permission change.
-
-Business Justification
-
-Why the software is required for your role or project.
-
-Required Access Level
-
-The permissions or license type needed, if applicable.
-
-Device Information
-
-Your company device name or asset ID, if installation is required.
-
-Manager
-
-Your reporting manager, if approval is required.
-
-Required Date
-
-The date by which access is needed, if applicable.
+| Field                  | Information to Provide                                                  |
+| ---------------------- | ----------------------------------------------------------------------- |
+| Employee Name          | Your full name as registered with the company.                          |
+| Company Email          | Your official company email address.                                    |
+| Department             | Your department or business unit.                                       |
+| Application Name       | The software or platform you need.                                      |
+| Request Type           | Installation, account access, license assignment, or permission change. |
+| Business Justification | Why the software is required for your role or project.                  |
+| Required Access Level  | The permissions or license type needed, if applicable.                  |
+| Device Information     | Your company device name or asset ID, if installation is required.      |
+| Manager                | Your reporting manager, if approval is required.                        |
+| Required Date          | The date by which access is needed, if applicable.                      |
 
 Include only the information requested by the approved form. Do not submit passwords, MFA codes, or other authentication secrets.
 
-**Step 4: Submit the Request**
+#### Step 4: Submit the Request
 
 Review the request to ensure that all required fields are complete.
 
@@ -141,7 +112,7 @@ Review the request to ensure that all required fields are complete.
 
 You should receive a confirmation or ticket reference if the request system supports it.
 
-**Step 5: Obtain the Required Approvals**
+#### Step 5: Obtain the Required Approvals
 
 Depending on the software and the permissions requested, approval may be required from one or more of the following:
 
@@ -156,7 +127,7 @@ The request may remain pending until the required approvals are completed.
 
 Employees should not attempt to install unapproved software, purchase licenses independently, or bypass the authorization process.
 
-**Step 6: Wait for IT Processing**
+#### Step 6: Wait for IT Processing
 
 Once the request has been submitted and the necessary approvals are received, the responsible team will review and process it.
 
@@ -172,7 +143,7 @@ Processing may involve:
 
 Processing times may vary depending on the application, license availability, approval requirements, and technical complexity.
 
-**Step 7: Verify Software Access**
+#### Step 7: Verify Software Access
 
 After receiving confirmation that the request has been completed:
 
@@ -185,87 +156,38 @@ After receiving confirmation that the request has been completed:
 
 If the software requires a separate license or activation step, follow the instructions provided by IT.
 
-#### 6. Request Status and Follow-Up <a href="#id-6.-request-status-and-follow-up" id="id-6.-request-status-and-follow-up"></a>
+### 6. Request Status and Follow-Up
 
 Your request may have one of the following statuses, depending on the ticketing system:
 
-StatusMeaning
-
-Submitted
-
-The request has been received.
-
-Pending Approval
-
-Approval from the required person or team is outstanding.
-
-In Progress
-
-The responsible team is processing the request.
-
-Pending Information
-
-Additional details are required from the requester.
-
-Approved
-
-The request has been authorized but may not yet be fulfilled.
-
-Completed
-
-The requested access or installation has been provided.
-
-Rejected
-
-The request was not approved.
-
-Closed
-
-The ticket has been closed according to the service desk process.
+| Status              | Meaning                                                           |
+| ------------------- | ----------------------------------------------------------------- |
+| Submitted           | The request has been received.                                    |
+| Pending Approval    | Approval from the required person or team is outstanding.         |
+| In Progress         | The responsible team is processing the request.                   |
+| Pending Information | Additional details are required from the requester.               |
+| Approved            | The request has been authorized but may not yet be fulfilled.     |
+| Completed           | The requested access or installation has been provided.           |
+| Rejected            | The request was not approved.                                     |
+| Closed              | The ticket has been closed according to the service desk process. |
 
 If your request remains pending beyond the expected processing time, check its status through the helpdesk portal or contact the responsible team using the ticket reference.
 
-#### 7. Common Issues and Troubleshooting <a href="#id-7.-common-issues-and-troubleshooting" id="id-7.-common-issues-and-troubleshooting"></a>
+### 7. Common Issues and Troubleshooting
 
-IssueRecommended Action
+| Issue                                           | Recommended Action                                                                             |
+| ----------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| Unable to access the request portal             | Verify your company account and contact IT Support if the issue persists.                      |
+| Software is not listed in the portal            | Contact IT Support to confirm whether the application is approved and available.               |
+| Request is pending approval                     | Contact your manager or the relevant approver if additional action is required.                |
+| Request is rejected                             | Review the reason provided and consult your manager or IT Support about approved alternatives. |
+| License is unavailable                          | Ask IT or the license administrator about availability or alternatives.                        |
+| Installation requires administrator privileges  | Submit a request for installation through the approved IT process.                             |
+| Application installed but cannot be opened      | Record the error message and contact IT Support.                                               |
+| Access granted but permissions are insufficient | Request the additional permissions required and provide a business justification.              |
+| Request is delayed                              | Check the ticket status and follow up using the request reference.                             |
 
-Unable to access the request portal
-
-Verify your company account and contact IT Support if the issue persists.
-
-Software is not listed in the portal
-
-Contact IT Support to confirm whether the application is approved and available.
-
-Request is pending approval
-
-Contact your manager or the relevant approver if additional action is required.
-
-Request is rejected
-
-Review the reason provided and consult your manager or IT Support about approved alternatives.
-
-License is unavailable
-
-Ask IT or the license administrator about availability or alternatives.
-
-Installation requires administrator privileges
-
-Submit a request for installation through the approved IT process.
-
-Application installed but cannot be opened
-
-Record the error message and contact IT Support.
-
-Access granted but permissions are insufficient
-
-Request the additional permissions required and provide a business justification.
-
-Request is delayed
-
-Check the ticket status and follow up using the request reference.
-
-#### 8. Software Access and Security Guidelines <a href="#id-8.-software-access-and-security-guidelines" id="id-8.-software-access-and-security-guidelines"></a>
+### 8. Software Access and Security Guidelines
 
 Employees must follow these requirements when requesting and using software:
 
@@ -279,7 +201,7 @@ Employees must follow these requirements when requesting and using software:
 
 Access may be reviewed, modified, or revoked when job responsibilities change or the business no longer requires it, in accordance with company procedures.
 
-#### 9. When to Contact IT Support <a href="#id-9.-when-to-contact-it-support" id="id-9.-when-to-contact-it-support"></a>
+### 9. When to Contact IT Support
 
 Contact IT Support if:
 
@@ -300,7 +222,7 @@ Contact IT Support if:
 
 When contacting IT Support, include your request number, application name, a brief description of the issue, and any relevant error message. Never include passwords, MFA codes, or authentication secrets.
 
-#### 10. Related Documentation <a href="#id-10.-related-documentation" id="id-10.-related-documentation"></a>
+### 10. Related Documentation
 
 Refer to the following documents for additional information:
 

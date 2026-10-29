@@ -1,12 +1,12 @@
 # How to Reset Your Password
 
-#### 1. Overview <a href="#id-1.-overview" id="id-1.-overview"></a>
+### 1. Overview
 
 This guide explains how employees can reset their company account password when they forget it, cannot sign in, or need to update it according to company security requirements.
 
 Follow the instructions below to regain access to your account securely. The exact steps may vary depending on the company's identity management system and password reset configuration.
 
-#### 2. Purpose <a href="#id-2.-purpose" id="id-2.-purpose"></a>
+### 2. Purpose
 
 The purpose of this guide is to help employees:
 
@@ -15,7 +15,7 @@ The purpose of this guide is to help employees:
 * Troubleshoot common password reset issues.
 * Restore access to company applications and services securely.
 
-#### 3. When Should You Reset Your Password? <a href="#id-3.-when-should-you-reset-your-password" id="id-3.-when-should-you-reset-your-password"></a>
+### 3. When Should You Reset Your Password?
 
 You may need to reset your password in the following situations:
 
@@ -27,7 +27,7 @@ You may need to reset your password in the following situations:
 
 **Important:** If you suspect that your account has been compromised, contact IT Support or the designated security team immediately and follow the company's incident response procedure.
 
-#### 4. Prerequisites <a href="#id-4.-prerequisites" id="id-4.-prerequisites"></a>
+### 4. Prerequisites
 
 Before beginning the password reset process, ensure that you have:
 
@@ -39,9 +39,9 @@ Before beginning the password reset process, ensure that you have:
 
 If you cannot access your recovery methods, contact IT Support for assistance. Do not attempt to bypass the company's account verification process.
 
-#### 5. Steps to Reset Your Password <a href="#id-5.-steps-to-reset-your-password" id="id-5.-steps-to-reset-your-password"></a>
+### 5. Steps to Reset Your Password
 
-**Step 1: Open the Official Sign-In Portal**
+#### Step 1: Open the Official Sign-In Portal
 
 Open your company's approved sign-in page or password reset portal.
 
@@ -49,7 +49,7 @@ Open your company's approved sign-in page or password reset portal.
 
 Make sure the website address is correct before entering any account information. Do not use password reset links received from suspicious emails or unknown sources.
 
-**Step 2: Select the Password Reset Option**
+#### Step 2: Select the Password Reset Option
 
 On the sign-in page, select the appropriate option, such as:
 
@@ -59,7 +59,7 @@ On the sign-in page, select the appropriate option, such as:
 
 The wording may vary depending on the company's identity management system.
 
-**Step 3: Enter Your Account Information**
+#### Step 3: Enter Your Account Information
 
 Enter your registered company email address or username as requested.
 
@@ -67,7 +67,7 @@ Follow the on-screen instructions to continue.
 
 If the portal cannot identify your account, verify the information you entered. If the issue persists, contact IT Support.
 
-**Step 4: Verify Your Identity**
+#### Step 4: Verify Your Identity
 
 Complete the identity verification process configured by your company.
 
@@ -79,7 +79,7 @@ This may involve:
 
 Never share verification codes, recovery codes, or MFA approval requests with another person, including someone claiming to be from IT Support.
 
-**Step 5: Create a New Password**
+#### Step 5: Create a New Password
 
 After successful verification, enter your new password and confirm it if prompted.
 
@@ -95,13 +95,13 @@ General password security recommendations:
 
 Select **Submit**, **Reset Password**, or the corresponding confirmation option to complete the process.
 
-**Step 6: Confirm the Password Reset**
+#### Step 6: Confirm the Password Reset
 
 Wait for the confirmation message indicating that your password has been changed successfully.
 
 If the reset fails, note the error message and follow the troubleshooting instructions below.
 
-**Step 7: Sign In With Your New Password**
+#### Step 7: Sign In With Your New Password
 
 Return to the official company sign-in page.
 
@@ -112,43 +112,20 @@ Return to the official company sign-in page.
 
 If you are already signed in on other devices or applications, you may need to sign in again using your new password.
 
-#### 6. Troubleshooting Common Issues <a href="#id-6.-troubleshooting-common-issues" id="id-6.-troubleshooting-common-issues"></a>
+### 6. Troubleshooting Common Issues
 
-IssueRecommended Action
+| Issue                                  | Recommended Action                                                                                           |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Password reset link is not working     | Open the official reset portal and request a new link if the system supports it.                             |
+| Verification code not received         | Check your registered contact details, wait briefly, and follow the portal's instructions.                   |
+| MFA verification failed                | Retry using your configured method or contact IT Support if you cannot access it.                            |
+| New password rejected                  | Review the password requirements and choose a password that meets them.                                      |
+| Account is locked                      | Follow the approved account recovery process or contact IT Support.                                          |
+| Reset completed but sign-in fails      | Check that you are using the correct username and new password. If the problem persists, contact IT Support. |
+| Recovery email or phone is unavailable | Contact IT Support for identity verification and account recovery assistance.                                |
+| Password reset option is unavailable   | Contact IT Support to confirm the correct reset procedure for your account.                                  |
 
-Password reset link is not working
-
-Open the official reset portal and request a new link if the system supports it.
-
-Verification code not received
-
-Check your registered contact details, wait briefly, and follow the portal's instructions.
-
-MFA verification failed
-
-Retry using your configured method or contact IT Support if you cannot access it.
-
-New password rejected
-
-Review the password requirements and choose a password that meets them.
-
-Account is locked
-
-Follow the approved account recovery process or contact IT Support.
-
-Reset completed but sign-in fails
-
-Check that you are using the correct username and new password. If the problem persists, contact IT Support.
-
-Recovery email or phone is unavailable
-
-Contact IT Support for identity verification and account recovery assistance.
-
-Password reset option is unavailable
-
-Contact IT Support to confirm the correct reset procedure for your account.
-
-#### 7. Security Best Practices <a href="#id-7.-security-best-practices" id="id-7.-security-best-practices"></a>
+### 7. Security Best Practices
 
 To protect your company account:
 
@@ -162,7 +139,7 @@ To protect your company account:
 
 **Note:** IT Support should never need you to disclose your current password or MFA verification code to troubleshoot an account issue.
 
-#### 8. When to Contact IT Support <a href="#id-8.-when-to-contact-it-support" id="id-8.-when-to-contact-it-support"></a>
+### 8. When to Contact IT Support
 
 Contact IT Support if:
 
@@ -182,7 +159,7 @@ Contact IT Support if:
 
 When raising a ticket, provide your username, the affected application, the approximate time of the issue, and the error message. Never include your password, MFA code, or recovery code.
 
-#### 9. Related Documentation <a href="#id-9.-related-documentation" id="id-9.-related-documentation"></a>
+### 9. Related Documentation
 
 Refer to the following documents for additional information:
 
