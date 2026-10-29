@@ -1,12 +1,12 @@
 # First-Day Setup
 
-<table><thead><tr><th width="133.478271484375">Owner</th><th width="227.467041015625">Document type</th><th width="82.7379150390625">Version</th><th width="154.1181640625">Last updated</th><th>Time needed</th></tr></thead><tbody><tr><td>IT Department</td><td>Employee onboarding / IT setup</td><td>1.0</td><td>29 October 2026</td><td>About 45 to 60 minutes</td></tr></tbody></table>
-
 Welcome to your first day at VC Technologies! This page is your checklist for getting set up. Each step links to a page with the full details, so you can follow the order here and open a guide only when you need it.
 
 {% hint style="info" %}
 **Goal:** a secure, working setup before you start your assigned work.
 {% endhint %}
+
+<table><thead><tr><th width="133.478271484375">Owner</th><th width="227.467041015625">Document type</th><th width="82.7379150390625">Version</th><th width="154.1181640625">Last updated</th><th>Time needed</th></tr></thead><tbody><tr><td>IT Department</td><td>Employee onboarding / IT setup</td><td>1.0</td><td>29 October 2026</td><td>About 45 to 60 minutes</td></tr></tbody></table>
 
 ### Before You Start
 

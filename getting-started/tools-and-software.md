@@ -1,172 +1,132 @@
 # Tools and Software
 
-### 1. Overview
+This page lists the tools and software used at VC Technologies, what each one is for, and how to get access. The tools you receive depend on your role and department.
 
-This document provides an overview of the tools, software, and applications used at **\[Company Name]** to support daily operations, communication, collaboration, development, and business activities.
+{% hint style="info" %}
+Not sure which tools you need? Check the list for your category below, or ask your manager.
+{% endhint %}
 
-It helps new employees understand the purpose of each tool, how to access it, and where to request assistance when needed.
+| Owner         | Document type                 | Version | Last updated    |
+| ------------- | ----------------------------- | ------- | --------------- |
+| IT Department | IT documentation / onboarding | 1.0     | 29 October 2026 |
 
-Employees are expected to use company-approved applications and follow the organization's IT security policies when accessing company systems and handling business information.
+### Tools by Category
 
-### 2. Purpose
+{% tabs %}
+{% tab title="Communication" %}
+| Tool            | Used for                       | Access        |
+| --------------- | ------------------------------ | ------------- |
+| Microsoft Teams | Chat, meetings, and calls      | Pre-installed |
+| Outlook         | Email and calendar             | Pre-installed |
+| SharePoint      | Shared team files and intranet | All employees |
+{% endtab %}
 
-The purpose of this document is to:
+{% tab title="Productivity" %}
+| Tool          | Used for                                   | Access         |
+| ------------- | ------------------------------------------ | -------------- |
+| Microsoft 365 | Documents, spreadsheets, and presentations | Pre-installed  |
+| Jira          | Task and project tracking                  | Role-based     |
+| Confluence    | Team knowledge base                        | All employees  |
+| GitBook       | Public and internal documentation sites    | Request needed |
+{% endtab %}
 
-* Introduce employees to the essential tools used across the organization.
-* Explain the purpose of each application and its intended use.
-* Provide guidance on accessing and installing approved software.
-* Establish consistent and secure software usage practices.
-* Help employees identify the appropriate support channel for technical issues.
+{% tab title="Development" %}
+| Tool               | Used for                         | Access          |
+| ------------------ | -------------------------------- | --------------- |
+| GitHub             | Code hosting and version control | Request needed  |
+| Visual Studio Code | Code editing                     | Software portal |
+| Postman            | API testing and documentation    | Software portal |
+{% endtab %}
 
-### 3. Categories of Tools and Software
+{% tab title="IT and Security" %}
+| Tool                | Used for                                            | Access            |
+| ------------------- | --------------------------------------------------- | ----------------- |
+| Company VPN         | Secure remote access (see **How to Configure VPN**) | Request needed    |
+| Authenticator app   | Multifactor authentication (MFA)                    | Set up on day one |
+| Endpoint protection | Antivirus and device security                       | Managed by IT     |
+{% endtab %}
+{% endtabs %}
 
-The tools available to an employee may vary depending on their department, responsibilities, and access permissions.
+### How to Get a Tool
 
-#### 3.1 Communication and Collaboration
+{% stepper %}
+{% step %}
+#### Find your tool
 
-These tools help employees communicate, participate in meetings, share information, and collaborate with their teams.
+Look up the tool for your role in the categories above, and check whether it is already on your device.
+{% endstep %}
 
-| Tool                            | Purpose                                                                                               | Access Method                            |
-| ------------------------------- | ----------------------------------------------------------------------------------------------------- | ---------------------------------------- |
-| Company Email                   | Official communication, announcements, and business correspondence.                                   | Company email account                    |
-| Microsoft Teams / Slack         | Team messaging, calls, meetings, and collaboration, depending on the platform adopted by the company. | Approved application or web portal       |
-| Zoom / Microsoft Teams Meetings | Online meetings, discussions, and screen sharing, as applicable.                                      | Company account or approved meeting link |
-| Shared Calendar                 | Scheduling meetings, managing appointments, and viewing team availability.                            | Approved calendar application            |
+{% step %}
+#### Request access if needed
 
-#### 3.2 Productivity and Document Management
+Follow **How to Request Access**. Some tools need manager approval or a licence.
+{% endstep %}
 
-These applications support the creation, editing, storage, and sharing of work-related documents.
+{% step %}
+#### Install it
 
-| Tool                                 | Purpose                                                                                       | Access Method                         |
-| ------------------------------------ | --------------------------------------------------------------------------------------------- | ------------------------------------- |
-| Microsoft Office / Microsoft 365     | Creating and editing documents, spreadsheets, and presentations.                              | Licensed company account              |
-| Google Workspace                     | Email, document collaboration, spreadsheets, and shared calendars, if adopted by the company. | Authorized company account            |
-| SharePoint / OneDrive / Google Drive | Storing and sharing work files using approved permissions.                                    | Authorized company account            |
-| PDF Reader                           | Viewing and reviewing PDF documents.                                                          | Approved software installation method |
+Use the company software portal or another method approved by IT.
+{% endstep %}
 
-#### 3.3 Development and Technical Tools
+{% step %}
+#### Sign in securely
 
-Employees working in IT, software development, engineering, or related roles may require additional tools.
+Use your own company account and complete MFA when asked.
+{% endstep %}
 
-| Tool                        | Purpose                                                                          | Access Method                                     |
-| --------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------- |
-| Visual Studio Code          | Editing source code and configuration files.                                     | Approved installation method                      |
-| Git                         | Tracking source code changes and managing version history.                       | Approved installation and repository access       |
-| GitHub / GitLab / Bitbucket | Hosting repositories, reviewing code, and collaborating on development projects. | Authorized company account                        |
-| Terminal / Command Line     | Running commands, scripts, and development utilities.                            | Operating system or approved terminal application |
-| Postman                     | Testing APIs and inspecting HTTP requests and responses.                         | Approved installation and account, if required    |
-| Docker                      | Building and running containerized applications, where required.                 | Approved installation and permissions             |
-| Database Client             | Connecting to and managing authorized databases.                                 | Approved client and granted database access       |
+{% step %}
+#### Check that it works
 
-_Note: Development tools should be included only if they are relevant to your organization's technology stack._
+Make sure the app opens and you can reach what you need. If not, see Common Issues below.
+{% endstep %}
+{% endstepper %}
 
-#### 3.4 IT and Security Tools
+### Installation Rules
 
-These tools help protect company systems, manage devices, and provide controlled access to internal resources.
-
-| Tool                                 | Purpose                                                                   | Access Method                 |
-| ------------------------------------ | ------------------------------------------------------------------------- | ----------------------------- |
-| VPN Client                           | Securely connecting to internal company resources when required.          | IT-provided configuration     |
-| Password Manager                     | Storing and managing credentials securely, if approved by the company.    | Authorized company account    |
-| Endpoint Protection                  | Protecting devices against malware and other security threats.            | IT-managed installation       |
-| Multifactor Authentication (MFA) App | Providing an additional verification step during sign-in.                 | Approved authentication setup |
-| IT Helpdesk Portal                   | Reporting incidents, requesting assistance, and tracking support tickets. | Internal support portal       |
-
-### 4. How to Access Tools and Software
-
-Follow these steps when accessing a company application for the first time.
-
-1. **Identify the required tool.** Refer to the application relevant to your role or department.
-2. **Check availability.** Confirm whether the tool is already installed or available through an approved company portal.
-3. **Request access if necessary.** Submit an access request through the designated IT process or obtain approval from your manager.
-4. **Install the application.** Use the official company software portal or another installation method approved by IT.
-5. **Sign in securely.** Use your assigned company account and complete MFA verification where required.
-6. **Verify functionality.** Confirm that the application opens correctly and that you can access the resources required for your work.
-7. **Request support.** Contact IT Support if you encounter installation, authentication, licensing, or permission issues.
-
-**Important:** Do not download or install unapproved software, use unauthorized licenses, or attempt to bypass administrative restrictions.
-
-### 5. Software Installation Guidelines
-
-Before installing any application on a company-managed device, employees must follow these guidelines:
-
+{% hint style="danger" %}
 * Install software only from approved sources.
-* Obtain the necessary approvals before installing applications that require administrative privileges or additional licenses.
-* Do not disable antivirus, endpoint protection, or other security controls to complete an installation.
-* Keep applications updated according to company IT requirements.
-* Do not install cracked, pirated, or unauthorized software.
-* Contact IT Support if an application requires elevated permissions or cannot be installed through the approved process.
+* Never turn off antivirus or other security controls to finish an installation.
+* Never install cracked, pirated, or unlicensed software.
+* Ask IT Support if an app needs administrator rights. Do not bypass the restriction.
+{% endhint %}
 
-Software installation permissions may differ based on employee roles and device management policies.
+Full requirements are in the **Device Control Guidelines**. Access to each tool follows the **Access Control Policy**, and your sign-in must meet the **Password Policy**. Never share your password or MFA codes.
 
-### 6. Account Access and Permissions
+### Common Issues
 
-Access to tools and software is granted according to job responsibilities and business requirements.
+<details>
 
-Employees should:
+<summary>The tool is not in the software portal</summary>
 
-* Use their individual company accounts wherever required.
-* Request access only to the resources needed for their assigned responsibilities.
-* Never share passwords, MFA codes, or authentication tokens.
-* Avoid using another employee's account or credentials.
-* Report unexpected access errors or suspicious account activity to IT Support.
-* Notify the appropriate team when access is no longer required or when a role change affects application permissions.
+It may not be approved for your role or device. Submit a software request using the details below.
 
-Some tools may require manager approval, licensing assignment, or authorization from a system owner before access is granted.
+</details>
 
-### 7. Common Issues and Troubleshooting
+<details>
 
-| Issue                      | Recommended Action                                                                 |
-| -------------------------- | ---------------------------------------------------------------------------------- |
-| Unable to sign in          | Verify your account details and follow the approved password recovery process.     |
-| Application not installed  | Check the approved software portal or submit an installation request.              |
-| Access denied              | Request the required permissions through the official access request process.      |
-| License unavailable        | Contact IT Support or the software administrator.                                  |
-| Application not responding | Restart the application and follow the approved troubleshooting steps.             |
-| VPN connection failure     | Verify your network connection and follow the company's VPN troubleshooting guide. |
-| MFA verification failure   | Follow the approved account recovery process or contact IT Support.                |
-| Software update issue      | Follow the IT-approved update procedure or raise a support ticket.                 |
+<summary>The installer asks for administrator rights</summary>
 
-### 8. Software Requests and IT Support
+Do not try to work around it. Ask IT Support to install it for you or approve the installation.
 
-For software installation, licensing, account access, or technical issues, contact the IT Support team.
+</details>
 
-**IT Support Details**
+<details>
 
-* Support Email: \[IT Support Email]
-* Helpdesk Portal: \[Helpdesk URL]
-* Support Hours: \[Support Hours]
-* Software Request Process: \[Software Request Link or Instructions]
-* IT Contact: \[IT Support Team / Extension]
+<summary>I get a "no licence" or "access denied" message</summary>
 
-When submitting a request, include the application name, a brief description of the issue, the relevant error message, and the business reason for the request. Do not include passwords or authentication codes.
+Your licence or permission may still be waiting for approval. Check the status of your request, then contact IT Support with the app name and the error message.
 
-### 9. Employee Responsibilities
+</details>
 
-All employees are responsible for using company software appropriately and securely.
+### Request Software or Get Help
 
-Employees must:
+| Contact           | Details                                                   |
+| ----------------- | --------------------------------------------------------- |
+| Email             | it-support@vctechnologies.example                         |
+| Helpdesk portal   | https://helpdesk.vctechnologies.example                   |
+| Software requests | Submit a "Software Request" ticket in the helpdesk portal |
+| Support hours     | Monday to Friday, 9:00 AM to 6:00 PM IST                  |
 
-* Follow company software licensing and usage requirements.
-* Protect confidential business information.
-* Use approved applications for official work.
-* Follow IT security policies and data-handling guidelines.
-* Report software-related security concerns promptly.
-* Avoid storing company data in unauthorized personal accounts or applications.
-
-For detailed requirements, refer to the **Company Policies** document.
-
-### 10. Related Documentation
-
-For additional information, refer to the following resources:
-
-* **First-Day Setup** — Instructions for setting up your workstation and company accounts.
-* **Company Policies** — Security requirements, acceptable-use guidelines, and employee responsibilities.
-* **IT Support Documentation** — Technical assistance, troubleshooting, and service requests.
-
-***
-
-**Document Owner:** IT Department\
-**Document Type:** IT Documentation / Employee Onboarding\
-**Version:** 1.0\
-**Last Updated:** \[Date]
+{% hint style="info" %}
+In your request, include the application name, a short description of the issue, any error message, and the business reason. Never include passwords or authentication codes.
+{% endhint %}
