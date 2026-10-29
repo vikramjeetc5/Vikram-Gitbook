@@ -1,209 +1,164 @@
 # How to Configure VPN
 
-### 1. Overview
+A VPN (Virtual Private Network) gives you a secure connection to company systems when you work remotely. This guide shows you how to set up the VPN, connect, check that it works, and disconnect.
 
-A Virtual Private Network (VPN) enables employees to establish a secure connection to company network resources when working remotely or when connected through an approved external network.
+{% hint style="info" %}
+The exact screens depend on the VPN client IT gives you. Always use the settings IT provides.
+{% endhint %}
 
-This guide explains how to configure and connect to the company VPN, verify the connection, troubleshoot common issues, and disconnect safely when the connection is no longer required.
+| Owner         | Document type | Version | Last updated    |
+| ------------- | ------------- | ------- | --------------- |
+| IT Department | How-to guide  | 1.0     | 29 October 2026 |
 
-The exact configuration steps may vary depending on the VPN software and settings provided by the IT Department.
+### Before You Start
 
-### 2. Purpose
+You need:
 
-This guide helps employees:
+* A company-issued or approved device and a stable internet connection
+* VPN access approved for your account (see  [how-to-request-software-access.md](how-to-request-software-access.md "mention"))
+* Your company account and your MFA method
+* The VPN client and settings from IT
 
-* Install or access the company-approved VPN client.
-* Configure the VPN using IT-provided settings.
-* Connect securely to authorized company resources.
-* Verify VPN connectivity.
-* Troubleshoot common connection issues.
+{% hint style="danger" %}
+Do not use personal VPN services, unapproved VPN apps, or configuration files from unknown sources to reach company systems.
+{% endhint %}
 
-### 3. Prerequisites
+### Connection Details
 
-Before configuring the VPN, ensure that you have:
+| Setting        | Value                      |
+| -------------- | -------------------------- |
+| VPN client     | VC Secure Connect          |
+| Server address | vpn.vctechnologies.example |
+| Protocol       | IKEv2                      |
+| Profile name   | VC-Corporate               |
+| Sign-in method | Company account and MFA    |
 
-* A company-issued or otherwise authorized device.
-* A stable internet connection.
-* The company-approved VPN client, if required.
-* Your company account credentials.
-* Multifactor authentication (MFA), if required.
-* The VPN server address or configuration profile provided by IT.
-* VPN access permissions approved for your account.
+{% hint style="info" %}
+If IT gave you a configuration profile, import it instead of typing the settings by hand. Never guess the server address, and never put passwords or private keys in any document.
+{% endhint %}
 
-**Important:** Do not use personal VPN services, unapproved VPN applications, or configuration files from unknown sources to access company resources.
+### Connect to the VPN
 
-### 4. Step-by-Step VPN Configuration
+{% stepper %}
+{% step %}
+#### Confirm you have access
 
-#### Step 1: Confirm VPN Access
+Check with IT Support that your role needs the VPN and that access is switched on for your account.
+{% endstep %}
 
-Before beginning the configuration:
+{% step %}
+#### Install the VPN client
 
-1. Confirm with IT Support whether your role requires VPN access.
-2. Verify that VPN access has been enabled for your company account.
-3. Obtain the approved VPN client and configuration instructions.
-4. Request any required server address, profile, or connection settings from IT.
+Get the client from the company software portal, as described on **Tools and Software**. Restart your device if asked. If installation needs administrator rights, ask IT Support.
+{% endstep %}
 
-Do not guess the VPN server address or modify security settings without authorization.
+{% step %}
+#### Add the company profile
 
-#### Step 2: Install the Approved VPN Client
+Open the VPN app. If the VC-Corporate profile is already there, select it. If not, import the profile from IT, or add a new connection using the settings in the table above, and save it.
+{% endstep %}
 
-If the VPN client is not already installed on your device:
+{% step %}
+#### Connect
 
-1. Open the company's approved software portal or follow the installation instructions provided by IT.
-2. Locate the designated VPN application.
-3. Download or install it using the approved method.
-4. Follow the installation prompts.
-5. Restart your device if required.
+Select the profile and click **Connect**. Enter your company credentials and complete MFA when asked, then wait for the app to show **Connected**.
+{% endstep %}
 
-If installation requires administrator privileges, request assistance from IT Support.
+{% step %}
+#### Check the connection
 
-**VPN Application:** \[Insert Approved VPN Client Name]
+Open an internal company site or system that needs the VPN and make sure it loads. Report anything you cannot reach to IT Support.
+{% endstep %}
+{% endstepper %}
 
-**Installation Instructions:** \[Insert Software Portal URL or Internal Guide]
+#### Where to find the VPN app
 
-#### Step 3: Open the VPN Application
+{% tabs %}
+{% tab title="Windows" %}
+Click the up arrow at the bottom right of the taskbar to find the VPN icon, or search for the app by name in the Start menu.
+{% endtab %}
 
-1. Launch the installed VPN application.
-2. Review the available connection profiles.
-3. If a company VPN profile has already been configured, select the appropriate profile.
-4. If no profile is available, follow the configuration instructions supplied by IT.
+{% tab title="macOS" %}
+Look for the VPN icon in the menu bar at the top right of the screen, or open the app from the Applications folder.
+{% endtab %}
+{% endtabs %}
 
-The application interface may differ depending on the VPN provider and operating system.
+{% hint style="warning" %}
+A **Connected** status does not mean every service will open. Some systems need extra permissions. See the **Access Control Policy**.
+{% endhint %}
 
-#### Step 4: Configure the VPN Connection
+### Is It Working?
 
-If manual configuration is required:
+| What you see                                      | What to do                                                                                                             |
+| ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| The app does not show **Connected**               | Check your internet and credentials, then retry MFA. If it still fails, note the error message and contact IT Support. |
+| **Connected**, but an internal site does not load | Check your permissions, then contact IT Support with the name of the system.                                           |
+| **Connected**, and the internal site loads        | You are ready to work.                                                                                                 |
 
-1. Select the option to add a new VPN connection or profile.
-2. Enter the server address provided by IT.
-3. Select the connection type or protocol specified in the official configuration instructions.
-4. Import the approved configuration profile or certificate if required.
-5. Enter any additional settings provided by IT.
-6. Save the configuration.
+### Troubleshooting
 
-Use only the settings and configuration files supplied through authorized company channels.
+<details>
 
-**Configuration Details**
+<summary>The connection keeps failing</summary>
 
-* VPN Server Address: \[Provided by IT]
-* VPN Type / Protocol: \[As specified by IT]
-* Connection Profile: \[Profile Name]
-* Authentication Method: \[Company-Approved Method]
-* Configuration File: \[Internal Link, if applicable]
+Check that your internet works without the VPN, then restart the VPN app and try again. Note the exact error message and contact IT Support if it keeps happening.
 
-Do not include passwords, private keys, authentication tokens, or other secrets in this documentation.
+</details>
 
-#### Step 5: Connect to the VPN
+<details>
 
-Once the configuration is complete:
+<summary>I see a certificate or authentication error</summary>
 
-1. Select the approved company VPN profile.
-2. Click **Connect**.
-3. Enter your company credentials if prompted.
-4. Complete MFA verification if required.
-5. Wait for the application to confirm that the connection has been established.
+Do not change security settings or install certificates from other sources. Contact IT Support with a screenshot, after checking that it shows no sensitive information.
 
-If the connection fails, record the error message and refer to the troubleshooting section below.
+</details>
 
-#### Step 6: Verify the VPN Connection
+<details>
 
-After connecting:
+<summary>I am connected but cannot open a company system</summary>
 
-1. Confirm that the VPN application displays a connected status.
-2. Open an internal company resource that requires VPN access.
-3. Verify that the resource loads successfully.
-4. Confirm that you can access only the systems and resources authorized for your account.
+Your account may not have access to that system yet. Check your access request, or contact IT Support with the name of the system.
 
-A connected status does not necessarily mean that every company service is accessible. Some resources may require additional permissions or separate configuration.
+</details>
 
-If an internal resource remains unavailable, contact IT Support.
+<details>
 
-### 5. How to Disconnect From the VPN
+<summary>The VPN client will not install or open</summary>
 
-When you no longer need the VPN connection:
+Use the approved installation method only. If it asks for administrator rights, ask IT Support to help.
 
-1. Open the VPN application.
-2. Select the active company VPN profile.
-3. Click **Disconnect**.
-4. Confirm that the application displays a disconnected status.
+</details>
 
-Follow your organization's instructions regarding when the VPN must remain connected. Some managed devices or applications may use an always-on VPN configuration that should not be manually disabled.
+### Disconnect
 
-### 6. Troubleshooting Common VPN Issues
+Open the VPN app, select the active profile, click **Disconnect**, and check that the status changes to disconnected.
 
-| Issue                                               | Recommended Action                                                                         |
-| --------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| VPN application is not installed                    | Use the approved software portal or contact IT Support.                                    |
-| VPN server cannot be reached                        | Check your internet connection and confirm the server address with IT.                     |
-| Authentication failed                               | Verify your username and follow the approved account recovery process if necessary.        |
-| MFA verification failed                             | Retry using your configured method or contact IT Support.                                  |
-| VPN connection times out                            | Check network connectivity and retry according to company guidance.                        |
-| VPN connects but internal resources are unavailable | Verify that the resource requires VPN and that your account has the necessary permissions. |
-| Configuration profile is missing                    | Request the approved profile or configuration instructions from IT.                        |
-| Certificate or security warning appears             | Stop and contact IT Support before proceeding. Do not bypass the warning.                  |
-| VPN disconnects repeatedly                          | Check network stability and report the issue to IT Support.                                |
-| VPN installation requires administrator access      | Submit a software installation request through the approved process.                       |
+{% hint style="info" %}
+Some managed devices use an always-on VPN. If yours does, do not turn it off.
+{% endhint %}
 
-### 7. VPN Security Guidelines
+### Security Rules
 
-Employees must follow these security practices when using the company VPN:
+{% hint style="warning" %}
+* Use only the VPN client and settings approved by the company.
+* Keep the client updated and do not turn off endpoint protection to connect.
+* Never share your VPN credentials with anyone.
+* Report unexpected prompts or security warnings straight away.
+{% endhint %}
 
-* Use only the VPN client and configuration approved by the company.
-* Keep the VPN client updated according to IT requirements.
-* Protect company credentials and authentication methods.
-* Never share VPN credentials or configuration secrets with unauthorized individuals.
-* Do not disable endpoint protection or other security controls to establish a VPN connection.
-* Avoid modifying connection settings unless authorized by IT.
-* Report unexpected connection prompts, security warnings, or suspicious VPN activity.
-* Follow company requirements for remote access, data protection, and device security.
+A VPN does not replace your other security duties. Password, MFA, and device rules still apply (see the **Device Control Guidelines**).
 
-A VPN does not replace other security requirements. Employees must continue to follow company password, MFA, device security, and data-handling policies.
+### Contact IT Support
 
-### 8. When to Contact IT Support
+Contact IT Support if you have not received VPN access, cannot install or open the client, cannot connect, see certificate errors, cannot reach required systems, or suspect that your credentials or device are compromised.
 
-Contact IT Support if:
+| Contact         | Details                                  |
+| --------------- | ---------------------------------------- |
+| Email           | it-support@vctechnologies.example        |
+| Helpdesk portal | https://helpdesk.vctechnologies.example  |
+| Support hours   | Monday to Friday, 9:00 AM to 6:00 PM IST |
+| Security issues | security@vctechnologies.example          |
 
-* You have not received VPN access or configuration details.
-* You cannot install or open the approved VPN client.
-* Your connection repeatedly fails.
-* You encounter certificate or authentication errors.
-* You can connect but cannot access required company resources.
-* You suspect that your VPN credentials or device have been compromised.
-
-**IT Support Details**
-
-* Support Email: \[IT Support Email]
-* Helpdesk Portal: \[Helpdesk URL]
-* Support Hours: \[Support Hours]
-* Remote Access Contact: \[IT Team / Extension]
-
-When submitting a ticket, include:
-
-* Your company username.
-* Your device operating system.
-* The VPN client name and version, if available.
-* The approximate time the issue occurred.
-* The error message or relevant screenshot, after checking that it contains no sensitive information.
-* Whether you can access the internet and whether the VPN connects successfully.
-
-Never include your password, MFA code, private key, or other authentication secrets in a support ticket.
-
-### 9. Related Documentation
-
-Refer to the following documents for additional guidance:
-
-* **First-Day Setup** — For initial workstation and account setup.
-* **Tools and Software** — For approved software and installation procedures.
-* **Company Policies** — For remote access and information security requirements.
-* **How to Reset Your Password** — For account recovery assistance.
-* **How to Contact IT Support** — For reporting technical issues.
-
-***
-
-**Document Owner:** IT Department
-
-**Document Type:** How-To Guide / Network Access
-
-**Version:** 1.0
-
-**Last Updated:** \[Date]
+{% hint style="info" %}
+In your ticket, include your username, your operating system, the VPN client name and version, the time of the problem, the error message, and whether the internet works without the VPN. Never include passwords, MFA codes, or private keys.
+{% endhint %}

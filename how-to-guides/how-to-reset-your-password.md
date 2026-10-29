@@ -1,180 +1,123 @@
 # How to Reset Your Password
 
-### 1. Overview
+This guide shows you how to reset your VC Technologies account password if you have forgotten it, cannot sign in, or need to change it. It takes about five minutes.
 
-This guide explains how employees can reset their company account password when they forget it, cannot sign in, or need to update it according to company security requirements.
+{% hint style="info" %}
+The exact wording on screen may differ slightly, depending on the company's sign-in system.
+{% endhint %}
 
-Follow the instructions below to regain access to your account securely. The exact steps may vary depending on the company's identity management system and password reset configuration.
+| Owner         | Document type | Version | Last updated    |
+| ------------- | ------------- | ------- | --------------- |
+| IT Department | How-to guide  | 1.0     | 29 October 2026 |
 
-### 2. Purpose
+### When to Reset Your Password
 
-The purpose of this guide is to help employees:
+| If this happened...                                                            | What to do                                                                                                                                       |
+| ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| You forgot your password, it has expired, or IT Support asked you to change it | Follow the reset steps below                                                                                                                     |
+| You think someone else knows your password                                     | Reset it using the steps below, then report it to IT Support or the security team                                                                |
+| You think your account has been compromised                                    | **Do not wait.** Contact IT Support or the security team straight away, and follow the incident reporting steps on the **Company Policies** page |
 
-* Reset a forgotten company account password.
-* Update an existing password when required.
-* Troubleshoot common password reset issues.
-* Restore access to company applications and services securely.
+{% hint style="danger" %}
+If you suspect a break-in, report it first. A reset alone does not tell the security team what happened.
+{% endhint %}
 
-### 3. When Should You Reset Your Password?
+### Before You Start
 
-You may need to reset your password in the following situations:
+Have these ready:
 
-* You have forgotten your current password.
-* Your account password has expired.
-* You are unable to sign in using your current credentials.
-* You suspect that someone else may know your password.
-* IT Support has instructed you to reset your password.
+* Your company username or email address
+* Your recovery email address or phone number
+* Your authenticator app, if you use MFA
+* The official reset page: https://passwordreset.vctechnologies.example
 
-**Important:** If you suspect that your account has been compromised, contact IT Support or the designated security team immediately and follow the company's incident response procedure.
+{% hint style="warning" %}
+Use only the official reset page. Do not use reset links from suspicious emails, and never share verification codes or MFA approvals with anyone, including someone who says they are from IT Support.
+{% endhint %}
 
-### 4. Prerequisites
+### Reset Your Password
 
-Before beginning the password reset process, ensure that you have:
+{% stepper %}
+{% step %}
+#### Open the official sign-in page
 
-* Your company username or registered email address.
-* Access to your registered recovery email address or phone number, if required.
-* Access to your configured multifactor authentication (MFA) method, if applicable.
-* A stable internet connection.
-* The official company password reset link or sign-in portal.
+Go to the company password reset page and check that the web address is correct before you type anything.
+{% endstep %}
 
-If you cannot access your recovery methods, contact IT Support for assistance. Do not attempt to bypass the company's account verification process.
+{% step %}
+#### Choose the reset option
 
-### 5. Steps to Reset Your Password
+Select **Forgot Password**, **Reset Password**, or **Can't Access Your Account**, then enter your company email address or username.
+{% endstep %}
 
-#### Step 1: Open the Official Sign-In Portal
+{% step %}
+#### Verify your identity
 
-Open your company's approved sign-in page or password reset portal.
+Enter the code sent to your recovery email or phone, or approve the request in your authenticator app.
+{% endstep %}
 
-**Password Reset Portal:** \[Insert Company Password Reset URL]
+{% step %}
+#### Create a new password
 
-Make sure the website address is correct before entering any account information. Do not use password reset links received from suspicious emails or unknown sources.
+Enter and confirm your new password. It must meet the **Password Policy**. Use a long, unique password or passphrase, and do not reuse passwords from personal accounts.
+{% endstep %}
 
-#### Step 2: Select the Password Reset Option
+{% step %}
+#### Sign in again
 
-On the sign-in page, select the appropriate option, such as:
+Wait for the confirmation message, then sign in with your new password and complete MFA. If you are signed in on other devices or apps, sign in to them again too.
+{% endstep %}
+{% endstepper %}
 
-* Forgot Password
-* Reset Password
-* Can't Access Your Account
+{% hint style="success" %}
+**Done when** you see the confirmation message and can sign in with your new password.
+{% endhint %}
 
-The wording may vary depending on the company's identity management system.
+### Troubleshooting
 
-#### Step 3: Enter Your Account Information
+<details>
 
-Enter your registered company email address or username as requested.
+<summary>The portal cannot find my account</summary>
 
-Follow the on-screen instructions to continue.
+Check your username or email address for typos. If it still fails, contact IT Support.
 
-If the portal cannot identify your account, verify the information you entered. If the issue persists, contact IT Support.
+</details>
 
-#### Step 4: Verify Your Identity
+<details>
 
-Complete the identity verification process configured by your company.
+<summary>I do not receive a verification code</summary>
 
-This may involve:
+Check your spam folder and phone signal, then request a new code. If your recovery email or phone number has changed, contact IT Support.
 
-* Entering a verification code sent to your registered email address or phone number.
-* Approving a sign-in request through your authenticator application.
-* Completing another company-approved identity verification method.
+</details>
 
-Never share verification codes, recovery codes, or MFA approval requests with another person, including someone claiming to be from IT Support.
+<details>
 
-#### Step 5: Create a New Password
+<summary>My new password is rejected</summary>
 
-After successful verification, enter your new password and confirm it if prompted.
+It may not meet the requirements shown on the page, or it may match an earlier password. Choose a longer, different password.
 
-Your password must comply with your company's password requirements.
+</details>
 
-General password security recommendations:
+<details>
 
-* Use a long, unique password or passphrase.
-* Avoid reusing passwords from personal accounts or other services.
-* Avoid easily guessed information, such as your name or common words.
-* Use an approved password manager if one is provided by your company.
-* Follow any password length, complexity, or other requirements displayed by the reset portal.
+<summary>I reset my password but still cannot sign in</summary>
 
-Select **Submit**, **Reset Password**, or the corresponding confirmation option to complete the process.
+Wait a few minutes, then try again. If the problem continues, see **Troubleshoot Login Issues**.
 
-#### Step 6: Confirm the Password Reset
+</details>
 
-Wait for the confirmation message indicating that your password has been changed successfully.
+### Contact IT Support
 
-If the reset fails, note the error message and follow the troubleshooting instructions below.
+Contact IT Support if you cannot verify your identity, your account stays locked, your recovery methods are unavailable, you see a persistent error, or you suspect unauthorized access.
 
-#### Step 7: Sign In With Your New Password
+| Contact         | Details                                  |
+| --------------- | ---------------------------------------- |
+| Email           | it-support@vctechnologies.example        |
+| Helpdesk portal | https://helpdesk.vctechnologies.example  |
+| Support hours   | Monday to Friday, 9:00 AM to 6:00 PM IST |
+| Security issues | security@vctechnologies.example          |
 
-Return to the official company sign-in page.
-
-1. Enter your company username or email address.
-2. Enter your new password.
-3. Complete MFA verification if required.
-4. Confirm that you can access your account successfully.
-
-If you are already signed in on other devices or applications, you may need to sign in again using your new password.
-
-### 6. Troubleshooting Common Issues
-
-| Issue                                  | Recommended Action                                                                                           |
-| -------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| Password reset link is not working     | Open the official reset portal and request a new link if the system supports it.                             |
-| Verification code not received         | Check your registered contact details, wait briefly, and follow the portal's instructions.                   |
-| MFA verification failed                | Retry using your configured method or contact IT Support if you cannot access it.                            |
-| New password rejected                  | Review the password requirements and choose a password that meets them.                                      |
-| Account is locked                      | Follow the approved account recovery process or contact IT Support.                                          |
-| Reset completed but sign-in fails      | Check that you are using the correct username and new password. If the problem persists, contact IT Support. |
-| Recovery email or phone is unavailable | Contact IT Support for identity verification and account recovery assistance.                                |
-| Password reset option is unavailable   | Contact IT Support to confirm the correct reset procedure for your account.                                  |
-
-### 7. Security Best Practices
-
-To protect your company account:
-
-* Never share your password with anyone.
-* Never approve an unexpected MFA request.
-* Do not enter credentials on unfamiliar or suspicious websites.
-* Do not store passwords in plain-text files, notes, or unsecured documents.
-* Use only approved password reset and account recovery methods.
-* Report suspected account compromise promptly.
-* Follow company security policies when accessing company applications and systems.
-
-**Note:** IT Support should never need you to disclose your current password or MFA verification code to troubleshoot an account issue.
-
-### 8. When to Contact IT Support
-
-Contact IT Support if:
-
-* You cannot complete identity verification.
-* Your account remains locked after following the approved recovery process.
-* Your registered recovery methods are unavailable.
-* The password reset portal displays a persistent error.
-* You suspect unauthorized access to your account.
-* You have reset your password but still cannot access essential company services.
-
-**IT Support Details**
-
-* Support Email: \[IT Support Email]
-* Helpdesk Portal: \[Helpdesk URL]
-* Support Hours: \[Support Hours]
-* Emergency Security Contact: \[Security Contact, if applicable]
-
-When raising a ticket, provide your username, the affected application, the approximate time of the issue, and the error message. Never include your password, MFA code, or recovery code.
-
-### 9. Related Documentation
-
-Refer to the following documents for additional information:
-
-* **First-Day Setup** — For initial company account setup.
-* **Tools and Software** — For information about company applications and access.
-* **Company Policies** — For password security and account protection requirements.
-* **How to Enable MFA** — For setting up multifactor authentication, if applicable.
-* **How to Contact IT Support** — For raising technical support requests.
-
-***
-
-**Document Owner:** IT Department
-
-**Document Type:** How-To Guide / Account Management
-
-**Version:** 1.0
-
-**Last Updated:** \[Date]
+{% hint style="info" %}
+In your ticket, include your username, the affected app, the time of the issue, and any error message. IT Support will never ask for your password or MFA code, so never include them.
+{% endhint %}
