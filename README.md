@@ -12,8 +12,6 @@ We are delighted to have you on board. This documentation portal is designed to 
 
 Whether you are joining us for the first time or need to refer back to internal guidelines, this portal will serve as your central resource for essential employee and IT information.
 
-<figure><img src=".gitbook/assets/VC_Technologies_Icon.png" alt=""><figcaption></figcaption></figure>
-
 ### Getting Started
 
 Your first day is the beginning of your journey with us. To help you settle in smoothly, we have created a dedicated **Getting Started** folder containing the essential information you need to begin your work.
