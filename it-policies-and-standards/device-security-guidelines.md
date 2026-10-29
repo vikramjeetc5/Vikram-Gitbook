@@ -1,327 +1,241 @@
 # Device Security Guidelines
 
-### 1. Overview
+These guidelines set the minimum security requirements for protecting VC Technologies devices, including company-issued laptops and desktops, managed phones and tablets, approved personal devices used for work, and removable storage. They apply to all employees, contractors, and authorized users.
+
+{% hint style="info" %}
+Your device is how you reach company systems and data, so keeping it locked, updated, and protected keeps the company safe. If a device is lost or stolen, jump to **If a Device Is Lost, Stolen, or Compromised**.
+{% endhint %}
+
+| Policy details     |                                      |
+| ------------------ | ------------------------------------ |
+| Owner              | IT / Information Security Department |
+| Policy type        | IT policies and standards            |
+| Version            | 1.0                                  |
+| Effective date     | 29 October 2026                      |
+| Last reviewed      | 29 October 2026                      |
+| Next review        | 29 October 2027                      |
+| Approval authority | Chief Information Security Officer   |
 
-The Device Security Guidelines of **\[Company Name]** establish the minimum security requirements for protecting company-issued devices and authorized personal devices used for business purposes.
+### Device Standards
 
-Devices are essential for accessing company applications, networks, communications, and confidential information. Improper device usage, outdated software, unauthorized applications, or physical loss can expose the organization to security threats.
+| Setting                           | Requirement                                  |
+| --------------------------------- | -------------------------------------------- |
+| Screen lock                       | Automatic lock after 5 minutes of inactivity |
+| Security updates                  | Critical updates within 7 days of release    |
+| Disk encryption                   | On for all laptops and mobile devices        |
+| Antivirus and endpoint protection | On at all times, and never disabled          |
+| Sign-in                           | Your own account, with MFA where required    |
 
-All employees, contractors, and authorized users must follow these guidelines to maintain a secure working environment and protect company resources.
+{% hint style="info" %}
+Servers, development environments, and administrator workstations may have extra technical requirements.
+{% endhint %}
 
-### 2. Purpose
+### Always and Never
 
-The purpose of these guidelines is to:
+{% tabs %}
+{% tab title="Always" %}
+* Lock your screen whenever you leave your device.
+* Keep your operating system and apps updated, and restart when asked.
+* Keep devices physically secure, and keep them with you when you travel.
+* Store company information only in approved locations.
+* Report a lost, stolen, damaged, or suspicious device straight away.
+{% endtab %}
 
-* Protect company devices against unauthorized access, loss, theft, and misuse.
-* Reduce risks associated with malware, vulnerabilities, and insecure configurations.
-* Establish secure device usage and maintenance practices.
-* Protect confidential company and customer information.
-* Define employee responsibilities for device security.
-* Establish procedures for reporting lost devices and suspected security incidents.
+{% tab title="Never" %}
+* Never turn off, remove, or change security software or encryption.
+* Never install unapproved, pirated, or cracked software.
+* Never share your login details or let someone else use your account.
+* Never plug in unknown USB drives or copy company data to personal storage.
+* Never sell, discard, or hand over a company device yourself.
+{% endtab %}
+{% endtabs %}
 
-### 3. Scope
+{% hint style="danger" %}
+Do not bypass security restrictions, disable required protection, or make unauthorized changes to a managed device.
+{% endhint %}
 
-These guidelines apply to devices used to access company resources, including:
+### Quick Checks
 
-* Company-issued laptops and desktop computers.
-* Company-managed mobile phones and tablets.
-* Authorized personal devices used for work, where permitted.
-* Servers and other company-managed computing devices, where applicable.
-* Removable storage devices approved for business use.
-* Peripheral devices and other equipment that can connect to company systems.
+The steps below can differ a little by version, so ask IT Support if you do not see them.
 
-Additional technical requirements may apply to servers, development environments, administrative workstations, and other specialized systems.
+{% tabs %}
+{% tab title="Windows" %}
+* **Lock your screen:** press **Windows key + L**.
+* **Check updates:** open **Settings**, then **Windows Update**.
+* **Check encryption:** open **Settings**, then **Privacy & security**, then **Device encryption**.
+{% endtab %}
 
-### 4. General Device Security Requirements
+{% tab title="macOS" %}
+* **Lock your screen:** press **Control + Command + Q**.
+* **Check updates:** open **System Settings**, then **General**, then **Software Update**.
+* **Check encryption:** open **System Settings**, then **Privacy & Security**, then **FileVault**.
+{% endtab %}
+{% endtabs %}
 
-All employees must:
+### If a Device Is Lost, Stolen, or Compromised
 
-* Use devices authorized by the company for business activities.
-* Keep devices physically secure and protected from unauthorized use.
-* Use their own assigned accounts to access company systems.
-* Lock their screens whenever devices are unattended.
-* Keep operating systems and applications updated according to IT requirements.
-* Ensure required security software remains enabled.
-* Avoid unauthorized software installations or system modifications.
-* Protect company information stored on or accessed through devices.
-* Report lost, stolen, damaged, or potentially compromised devices promptly.
+Report it straight away if a device is lost or stolen, shows unexpected security warnings, may have been used by someone else while unlocked, may have malware, may have exposed company information, or has had its security settings changed without permission.
 
-Employees must not bypass security restrictions or disable required protective controls without authorization.
+{% stepper %}
+{% step %}
+#### Report it
 
-### 5. Device Access and Authentication
+Contact IT Support or the security team right away (see the contacts below).
+{% endstep %}
 
-Access to company devices must be protected by approved authentication mechanisms.
+{% step %}
+#### Give the details
 
-Employees must:
+Share the device details and tell them what happened, if you can.
+{% endstep %}
 
-* Use a unique, authorized account to sign in.
-* Create and protect passwords in accordance with the **Password Policy**.
-* Use multifactor authentication (MFA) wherever required.
-* Use approved biometric authentication or other supported sign-in methods where configured.
-* Lock the device when leaving the workstation unattended.
-* Sign out of shared or temporary sessions when finished.
-* Never share login credentials or allow unauthorized individuals to use their accounts.
+{% step %}
+#### Follow their instructions
 
-Devices must be configured to lock automatically after the period defined by company security standards.
+Do not try to investigate, recover data, or bypass security on your own.
+{% endstep %}
 
-**Approved Screen-Lock Timeout:** \[Insert Company Standard]
+{% step %}
+#### Help with recovery
 
-### 6. Operating System and Software Updates
+Cooperate with any account protection, device isolation, or recovery steps. Where it is supported and allowed, IT may lock, locate, restrict, or wipe a managed device remotely.
+{% endstep %}
+{% endstepper %}
 
-Keeping devices updated helps protect them against known security vulnerabilities and software defects.
+### Detailed Rules
 
-Employees must:
+<details>
 
-* Install operating system updates according to company instructions.
-* Apply required security patches within the established timelines.
-* Keep approved applications updated.
-* Restart devices when required to complete security updates.
-* Avoid postponing mandatory updates without authorization.
-* Report repeated update failures to IT Support.
+<summary>Sign-in and screen lock</summary>
 
-Employees must not download operating system updates or software patches from untrusted sources.
+* Use a unique, authorized account, and protect your password as set out in the **Password Policy**.
+* Use MFA and approved biometric sign-in where it is set up.
+* Sign out of shared or temporary sessions when you finish.
+* Devices lock automatically after the time shown in the Device Standards table.
 
-The IT Department is responsible for defining update policies, managing centrally controlled devices where applicable, and communicating required actions to employees.
+</details>
 
-**Security Update Requirement:** \[Insert Approved Patch Management Standard]
+<details>
 
-### 7. Antivirus and Endpoint Protection
+<summary>Updates and endpoint protection</summary>
 
-Company devices must use the security software and protective controls required by the organization.
+* Install operating system updates and security patches within the deadlines, and keep approved apps updated.
+* Restart when needed, and do not postpone mandatory updates without permission.
+* Never download updates from untrusted sources, and report repeated update failures to IT Support.
+* Keep required security tools (antivirus, endpoint detection, firewall, device management) switched on, and follow security alerts from IT.
+* If you see a suspected malware alert, do not try to fix it yourself. Contact IT Support or the security team.
 
-These may include:
+</details>
 
-* Antivirus or anti-malware protection.
-* Endpoint Detection and Response (EDR).
-* Host firewall controls.
-* Device management and compliance tools.
-* Web or application protection.
-* Security monitoring agents.
+<details>
 
-Employees must:
+<summary>Encryption and data protection</summary>
 
-* Keep required security tools enabled.
-* Avoid disabling, uninstalling, or modifying protective software.
-* Follow security alerts and instructions issued by IT.
-* Report repeated warnings, suspicious behavior, or protection failures.
-* Avoid attempting unauthorized remediation of suspected malware infections.
+* Keep confidential information in approved company storage, and avoid saving sensitive data locally unless you are authorized.
+* Use approved file-sharing tools. Do not copy company data to unauthorized USB drives or personal devices.
+* Full-disk encryption must stay on where required. Never remove or bypass it.
+* Follow the approved rules for transferring, keeping, and deleting data.
 
-If a device displays a suspected malware alert, follow the company's incident response instructions and contact IT Support or the security team.
+</details>
 
-### 8. Encryption and Data Protection
+<details>
 
-Company information stored on devices must be protected according to its sensitivity and the organization's data protection requirements.
+<summary>Physical security and travel</summary>
 
-Employees must:
+* Do not leave devices unattended in public places, or visible in an unattended vehicle.
+* Store devices securely when you are not using them, and protect them from liquids, heat, and damage.
+* Take extra care when travelling, and watch for people who can see your screen.
+* Report any loss, theft, or suspected tampering promptly.
 
-* Use company-approved encrypted storage where required.
-* Keep confidential information in approved company storage locations.
-* Avoid storing sensitive information locally unless authorized.
-* Use approved file-sharing and synchronization tools.
-* Protect devices that contain company or customer information.
-* Avoid copying company information to unauthorized USB drives or personal devices.
-* Follow approved procedures for data transfer, retention, and disposal.
+</details>
 
-Full-disk encryption or other approved encryption controls must be enabled on devices where required by company standards.
+<details>
 
-Employees must not attempt to bypass encryption controls or independently remove company security protections.
+<summary>Working remotely</summary>
 
-### 9. Physical Security
+* Connect with approved methods, and use the company VPN when required (see **How to Configure VPN**).
+* Avoid unsecured public networks for sensitive work unless a secure access method is in place.
+* Keep your screen out of view in shared or public spaces, and never use public or shared computers for company accounts.
+* Do not connect unauthorized devices to company networks.
 
-Employees are responsible for taking reasonable precautions to protect company devices from loss, theft, damage, and unauthorized access.
+</details>
 
-Employees must:
+<details>
 
-* Keep laptops and mobile devices secured when not in use.
-* Avoid leaving devices unattended in public places.
-* Never leave devices visible inside unattended vehicles.
-* Use secure storage when devices are not being used.
-* Protect devices from liquids, excessive heat, and physical damage.
-* Keep company devices under their control when travelling.
-* Follow office access and visitor security procedures.
+<summary>Software and removable media</summary>
 
-When travelling, employees should take additional precautions to prevent devices from being lost, stolen, or viewed by unauthorized individuals.
+* Install software only through approved company channels (see **How to Request Access**), and use properly licensed software.
+* Ask IT when an installation needs administrator rights, and do not change security or device management settings.
+* Use only approved USB drives and storage, follow the encryption and scanning rules, and protect them from loss.
+* Do not plug in unknown devices. Return or dispose of company storage as IT tells you.
 
-Any loss, theft, or suspected tampering must be reported promptly.
+</details>
 
-### 10. Network and Remote Work Security
+<details>
 
-Devices used outside the office must continue to meet company security requirements.
+<summary>Personal devices (BYOD)</summary>
 
-Employees must:
+Personal devices may be used for work only where company policy allows it. If you use one:
 
-* Connect to company resources using approved network access methods.
-* Use the company VPN when required.
-* Avoid using unsecured public networks for sensitive activities unless an approved secure access method is in place.
-* Keep devices protected when working in shared or public spaces.
-* Prevent unauthorized individuals from viewing confidential information.
-* Avoid using public or shared computers to access company accounts.
-* Follow company remote-work and data protection policies.
+* Follow the BYOD and information security requirements, and use approved sign-in methods.
+* Keep the device updated and protected, and do not keep company data in unauthorized apps or accounts.
+* Keep company data away from family members and other users.
+* Understand the company's device management, monitoring, privacy, and data removal practices before you enrol.
+* Report loss, theft, or suspected compromise if company access or information could be affected.
 
-Employees must not connect unauthorized devices to company networks or attempt to bypass network access restrictions.
+</details>
 
-Refer to **How to Configure VPN** for the approved VPN setup procedure.
+<details>
 
-### 11. Software Installation and Device Configuration
+<summary>Returning, reassigning, and disposing of devices</summary>
 
-Only approved software and configurations may be used on company-managed devices.
+* The responsible team checks the device and accessories, and company data is kept, moved, or removed as required.
+* Credentials and enrolment are updated, and the device is securely reset before it is reassigned.
+* Before disposal or transfer outside the company, data is securely erased with an approved method.
+* Never sell, discard, or transfer a company device yourself.
 
-Employees must:
+</details>
 
-* Install software through authorized company channels.
-* Obtain required approval for applications that need administrative privileges.
-* Use appropriately licensed software.
-* Avoid pirated, cracked, or unauthorized applications.
-* Avoid modifying security settings or device management configurations.
-* Request IT assistance when installation or configuration requires elevated permissions.
+### Responsibilities
 
-The IT Department may restrict software installation, administrative privileges, or system configuration changes to protect company devices.
+| Role                 | Responsible for                                                                                                                                                                  |
+| -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Employees and users  | Following these guidelines, protecting devices and company data, installing updates, keeping security controls on, and reporting problems promptly                               |
+| IT Department        | Setting device standards, managing company devices and enrolment, maintaining endpoint protection and updates, giving support, and handling recovery, reassignment, and disposal |
+| Information Security | Defining device security requirements, advising on risks, supporting investigations, and coordinating incident response                                                          |
+| Managers             | Supporting compliance and telling the right teams when devices must be issued, reassigned, or returned                                                                           |
 
-Refer to **How to Request Software Access** for the approved software request process.
+### Compliance and Exceptions
 
-### 12. Removable Media and External Devices
+{% hint style="warning" %}
+Not following these guidelines can put the company at risk and may lead to corrective or disciplinary action, in line with company procedures and the law.
+{% endhint %}
 
-Removable media can introduce malware or expose confidential information if not handled securely.
+An exception must be:
 
-Employees must:
+* Documented and justified
+* Assessed for risk, where appropriate
+* Approved by the authorized IT or Information Security representative
 
-* Use only approved removable storage devices for company business.
-* Follow company requirements for encryption and malware scanning.
-* Avoid connecting unknown USB drives or other untrusted devices.
-* Never copy sensitive company data to unauthorized storage media.
-* Protect removable media against loss or theft.
-* Return or dispose of company-owned storage devices according to IT instructions.
+### Contact IT Support
 
-Any exception must be approved through the designated process.
+| Contact               | Details                                  |
+| --------------------- | ---------------------------------------- |
+| Email                 | it-support@vctechnologies.example        |
+| Helpdesk portal       | https://helpdesk.vctechnologies.example  |
+| Lost or stolen device | security@vctechnologies.example          |
+| Support hours         | Monday to Friday, 9:00 AM to 6:00 PM IST |
 
-### 13. Personal Devices and BYOD
+### Related Pages
 
-Bring Your Own Device (BYOD) arrangements are permitted only where authorized by company policy.
+{% content-ref url="../getting-started/company-policies.md" %}
+[company-policies.md](../getting-started/company-policies.md)
+{% endcontent-ref %}
 
-Employees using approved personal devices for work must:
+{% content-ref url="../how-to-guides/how-to-request-software-access.md" %}
+[how-to-request-software-access.md](../how-to-guides/how-to-request-software-access.md)
+{% endcontent-ref %}
 
-* Follow the organization's BYOD and information security requirements.
-* Use approved authentication and access methods.
-* Keep the device updated and protected.
-* Avoid storing company information in unauthorized personal applications or accounts.
-* Protect company data from access by family members or other unauthorized users.
-* Follow company instructions for separating, removing, or protecting business information.
-* Report loss, theft, or suspected compromise when company access or information may be affected.
-
-Where applicable, employees must understand the company's device management, monitoring, privacy, and corporate data removal practices before enrolling a personal device.
-
-**BYOD Policy Reference:** \[Insert Policy Link]
-
-### 14. Lost, Stolen, or Compromised Devices
-
-A lost, stolen, or potentially compromised device must be reported immediately through the designated IT or security reporting channel.
-
-Examples include:
-
-* A company laptop or phone is lost or stolen.
-* A device displays unexpected security warnings.
-* An unknown person may have accessed an unlocked device.
-* The device is suspected of malware infection.
-* Company information may have been exposed.
-* A device's security settings appear to have been changed without authorization.
-
-#### Required Actions
-
-1. Report the incident to IT Support or the security team promptly.
-2. Provide the device identification details and a description of what happened, if available.
-3. Follow instructions from the authorized IT or security team.
-4. Do not attempt unauthorized investigation, data recovery, or security bypasses.
-5. Cooperate with any required account protection, device isolation, or recovery steps.
-
-The IT Department may remotely lock, locate, restrict, or wipe a managed device where technically supported, authorized, and permitted by applicable policy and law.
-
-**Incident Reporting Contact:** \[Insert IT / Security Contact]
-
-**Helpdesk Portal:** \[Insert Helpdesk URL]
-
-### 15. Device Return, Reassignment, and Disposal
-
-Company devices must be returned, reassigned, repaired, or disposed of through approved procedures.
-
-When a device is returned or reassigned:
-
-* The responsible team must verify the device and its accessories.
-* Company information must be retained, transferred, or removed according to approved requirements.
-* Access credentials and device enrollment must be updated as necessary.
-* The device must be securely reset or reconfigured before reassignment, where applicable.
-
-Before a device is disposed of or transferred outside the organization, company information must be securely erased using an approved method appropriate to the storage medium and device.
-
-Employees must not independently sell, discard, or transfer company-owned devices.
-
-### 16. Roles and Responsibilities
-
-#### Employees and Authorized Users
-
-Employees are responsible for:
-
-* Following these guidelines.
-* Protecting assigned devices and company information.
-* Installing updates as instructed.
-* Keeping required security controls enabled.
-* Reporting security incidents and device problems promptly.
-
-#### IT Department
-
-The IT Department is responsible for:
-
-* Establishing device configuration and security standards.
-* Managing company-issued devices and approved device enrollment.
-* Maintaining approved endpoint protection and update processes.
-* Providing technical support and security guidance.
-* Coordinating device recovery, reassignment, and disposal.
-
-#### Information Security Team
-
-Where applicable, the Information Security team is responsible for:
-
-* Defining device security requirements.
-* Advising on endpoint security risks.
-* Supporting investigations of suspected device compromise.
-* Coordinating incident response and recommending improvements.
-
-#### Managers
-
-Managers are responsible for supporting compliance with device security requirements and notifying the appropriate teams when devices need to be issued, reassigned, or returned.
-
-### 17. Compliance and Exceptions
-
-Failure to follow these guidelines may expose the organization to security risks and may result in corrective or disciplinary action in accordance with company procedures and applicable law.
-
-Exceptions must be documented, justified, assessed for risk where appropriate, and approved by the authorized IT or Information Security representative.
-
-Employees must not independently bypass security controls or make unauthorized changes to managed devices.
-
-### 18. Related Documentation
-
-Refer to the following documents for additional guidance:
-
-* **Password Policy** — Requirements for password creation and protection.
-* **Access Control Policy** — Rules for system access and permissions.
-* **Company Policies** — General employee and IT security responsibilities.
-* **How to Configure VPN** — Instructions for secure remote connectivity.
-* **How to Request Software Access** — Approved software installation and access process.
-* **How to Troubleshoot Login Issues** — Assistance with account and authentication problems.
-* **Incident Response Policy** — Procedures for reporting security incidents.
-* **Employee Onboarding and Offboarding Procedure** — Device issuance and return procedures.
-
-***
-
-**Document Owner:** \[IT / Information Security Department]
-
-**Document Type:** IT Policies and Standards
-
-**Version:** 1.0
-
-**Effective Date:** \[Date]
-
-**Last Reviewed:** \[Date]
-
-**Next Review Date:** \[Date]
-
-**Approval Authority:** \[Authorized Approver]
+{% content-ref url="password-policy.md" %}
+[password-policy.md](password-policy.md)
+{% endcontent-ref %}

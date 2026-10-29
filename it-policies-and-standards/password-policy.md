@@ -1,269 +1,197 @@
 # Password Policy
 
-### 1. Overview
+This policy sets the rules for creating, using, and protecting passwords for VC Technologies accounts, devices, and systems. It applies to all employees, contractors, and authorized users.
 
-The Password Policy of **\[Company Name]** establishes the requirements for creating, using, protecting, and managing passwords for company accounts, applications, devices, and information systems.
+{% hint style="info" %}
+Short on time? Read **The Rules at a Glance**, then open the sections you need. For step-by-step instructions, see **How to Reset Your Password**.
+{% endhint %}
 
-Passwords are a critical component of access control and information security. Weak, reused, or compromised passwords can expose company systems and sensitive information to unauthorized access.
+| Policy details     |                                      |
+| ------------------ | ------------------------------------ |
+| Owner              | IT / Information Security Department |
+| Policy type        | IT policies and standards            |
+| Version            | 1.0                                  |
+| Effective date     | 29 October 2026                      |
+| Last reviewed      | 29 October 2026                      |
+| Next review        | 29 October 2027                      |
+| Approval authority | Chief Information Security Officer   |
 
-All employees, contractors, and authorized users must follow this policy when accessing company resources.
+### Who This Applies To
 
-### 2. Purpose
+The policy covers company email and employee accounts, managed devices, internal and cloud applications, VPN and remote access, development tools and databases, and administrative accounts. Systems that use passkeys or certificates follow their own security standard.
 
-The purpose of this policy is to:
+### The Rules at a Glance
 
-* Establish consistent password security requirements across the organization.
-* Reduce the risk of unauthorized account access.
-* Protect company information and systems from password-related attacks.
-* Promote secure authentication practices.
-* Define employee and IT responsibilities for password management.
-* Support the organization's information security and compliance requirements.
+| Rule       | Requirement                                                                                   | Level    |
+| ---------- | --------------------------------------------------------------------------------------------- | -------- |
+| Length     | At least 14 characters. Long passphrases are best                                             | Required |
+| Uniqueness | A different password for every company account, and never one you use elsewhere               | Required |
+| Sharing    | Never share your password with anyone                                                         | Required |
+| Storage    | Use only the company-approved password manager                                                | Required |
+| MFA        | Turn on multifactor authentication wherever it is supported                                   | Required |
+| Changes    | Change it only when it may be compromised, when IT tells you to, or when a system requires it | Required |
+| Reporting  | Report a suspected compromise immediately                                                     | Required |
 
-### 3. Scope
+{% hint style="danger" %}
+Never share your password, send it by email or chat, write it in a document, or put it in a support ticket. IT Support will never ask you for it.
+{% endhint %}
 
-This policy applies to all authorized users who access company-managed or company-approved resources, including:
+### Password Rules in Detail
 
-* Company email and employee accounts.
-* Laptops, desktops, and other managed devices.
-* Internal applications and business systems.
-* Cloud services and collaboration platforms.
-* VPN and remote access services.
-* Development environments, source code repositories, and databases.
-* Administrative and privileged accounts.
-* Other systems that use password-based authentication.
+<details>
 
-Where a system uses an alternative authentication method, such as passkeys or certificate-based authentication, the applicable system-specific security standard must be followed.
+<summary>Creating a strong password</summary>
 
-### 4. Password Requirements
+* Use a long, memorable passphrase or a randomly generated password.
+* Avoid personal details (your name, birthday, employee number), common phrases, predictable substitutions, and passwords found in known breach lists.
+* Follow any extra rules shown on the official password page.
+* Requirements can differ for standard, service, and administrative accounts, or for systems with technical limits.
 
-All passwords must comply with the requirements established by the company's identity management system and applicable security standards.
+</details>
 
-#### 4.1 Password Length and Strength
+<details>
 
-* Use long, unique passwords or passphrases.
-* Follow the minimum length and other requirements configured by the company.
-* Avoid predictable passwords, common phrases, and easily guessed patterns.
-* Do not use personal information, such as your name, birthday, or employee number, as the basis for a password.
-* Do not use passwords that appear on known compromised-password lists.
-* Follow system-specific requirements where stronger controls apply.
+<summary>Storing and managing passwords</summary>
 
-**Company Standard:** \[Insert Approved Minimum Password Length and Complexity Requirements]
+* Store passwords only in the company-approved password manager.
+* Never save passwords in plain-text files, spreadsheets, or notes.
+* Developers must not put passwords, API keys, or other secrets in code or configuration files. Use the approved secrets-management system.
+* Systems must never store passwords in plain text.
 
-#### 4.2 Password Uniqueness
+</details>
 
-* Use a unique password for each company account where passwords are required.
-* Never reuse company passwords for personal accounts or external services.
-* Avoid reusing previous passwords where the system prevents it or company policy requires it.
-* Use an organization-approved password manager when available.
+<details>
 
-Password reuse increases the risk that a compromise of one account could affect other accounts.
+<summary>Changing passwords and expiry</summary>
 
-#### 4.3 Password Confidentiality
+Change your password straight away if you think it has been exposed, if IT or the security team tells you to, or if a system requires it. Do not change it on a fixed schedule unless an approved policy or a particular system requires that.
 
-Employees must:
+When a password is compromised, the security team may also end active sessions, review the account's activity, and reset related credentials.
 
-* Keep passwords confidential at all times.
-* Never share passwords with colleagues, contractors, or unauthorized individuals.
-* Never send passwords through email, chat, or other unapproved communication channels.
-* Never store passwords in plain-text files, spreadsheets, or unsecured notes.
-* Never disclose passwords in support tickets or incident reports.
-* Use approved credential storage methods when required.
+</details>
 
-IT Support must use approved identity verification and account recovery procedures rather than asking employees to disclose their existing passwords.
+<details>
 
-### 5. Password Creation Guidelines
+<summary>Multifactor authentication (MFA)</summary>
 
-When creating a password, employees should:
+* Enrol with the method the company approves, and protect your authenticator device and recovery codes.
+* Never share verification codes, and never approve a request you did not start.
+* Report unexpected MFA prompts promptly.
+* If you lose your device, follow the approved recovery process.
+* MFA does not replace a strong, unique password.
 
-* Choose a long, memorable passphrase or a randomly generated password.
-* Avoid predictable substitutions and commonly used patterns.
-* Avoid using the same password across multiple systems.
-* Use a password manager approved by the company to generate and store strong passwords.
-* Follow the requirements presented by the official password creation or reset portal.
+</details>
 
-Password requirements may differ for standard user accounts, service accounts, administrative accounts, and systems with specific technical limitations.
+<details>
 
-### 6. Password Changes and Expiration
+<summary>Temporary and default passwords</summary>
 
-Passwords must be changed when required by the company's identity management system, a system-specific security requirement, or an authorized security response.
+* Change a temporary password as soon as you are prompted.
+* IT must deliver temporary credentials through an approved secure method and must not put them in general onboarding documents.
+* Default credentials must be changed before a system is put into use.
 
-Employees must change their passwords promptly when:
+</details>
 
-* They suspect a password has been exposed or compromised.
-* They receive a verified instruction from IT or the security team.
-* A system requires a password change due to expiration or another configured condition.
-* An incident investigation determines that credential replacement is necessary.
+<details>
 
-Routine password changes should follow the organization's approved authentication standard. Passwords should not be changed on an arbitrary schedule unless required by the company's approved policy or a specific system requirement.
+<summary>Administrator and privileged accounts</summary>
 
-When a password is compromised, the response may also require revoking active sessions, reviewing account activity, resetting affected credentials, and completing additional security checks.
+Accounts with extra permissions need stronger protection, because a compromise could affect many systems.
 
-### 7. Multifactor Authentication (MFA)
+* Use a separate standard account and privileged account where required.
+* Protect privileged accounts with stronger authentication, and turn on MFA.
+* Use them only for authorized administrative work, and never share them.
+* Grant, review, and remove privileged access through the access management process (see the **Access Control Policy**).
 
-Multifactor authentication provides an additional layer of protection beyond a password.
+</details>
 
-Where MFA is supported and required, employees must:
+### If You Think Your Password Is Compromised
 
-* Enroll using the authentication method approved by the company.
-* Protect their authenticator devices and recovery methods.
-* Never share verification codes or recovery codes.
-* Never approve an authentication request they did not initiate.
-* Report unexpected MFA prompts or suspicious authentication activity promptly.
-* Follow the approved recovery process if an authentication device is lost or unavailable.
+A password may be compromised if it has been exposed in a breach, typed into a suspicious website, or used in a login attempt you did not make.
 
-MFA does not eliminate the need for strong, unique passwords where password authentication is used.
+{% stepper %}
+{% step %}
+#### Report it straight away
 
-### 8. Password Storage and Management
+Contact IT Support or the security team through the approved channel.
+{% endstep %}
 
-Passwords and other authentication secrets must be stored and managed securely.
+{% step %}
+#### Change the password
 
-The following requirements apply:
+Use the official reset process, if it is safe to do so. See **How to Reset Your Password**.
+{% endstep %}
 
-* Use only company-approved password managers or credential storage solutions.
-* Do not save passwords in unprotected documents, spreadsheets, or source code.
-* Do not hard-code passwords, API keys, or other secrets into application code or configuration files.
-* Use approved secrets-management systems for applications and automated workloads.
-* Restrict access to stored credentials according to business need.
-* Protect backups and recovery information according to company security requirements.
+{% step %}
+#### Secure your account
 
-Where technical systems support it, passwords must be protected using appropriate secure authentication mechanisms and must never be stored in plaintext.
+Follow the team's instructions, and complete MFA recovery or re-enrolment if asked.
+{% endstep %}
 
-### 9. Administrative and Privileged Accounts
+{% step %}
+#### Cooperate with the review
 
-Accounts with elevated permissions require additional protection because their compromise may affect multiple systems or sensitive resources.
+Help the security team with its investigation. They may end sessions, reset related credentials, or restrict access for a short time.
+{% endstep %}
+{% endstepper %}
 
-Users with administrative privileges must:
+{% hint style="info" %}
+Report even if you think your own mistake caused it. Do not delay reporting.
+{% endhint %}
 
-* Use separate standard and privileged accounts where required.
-* Protect privileged credentials with stronger authentication controls.
-* Enable MFA wherever required by the company's privileged access standard.
-* Use administrative accounts only for authorized administrative activities.
-* Never share privileged credentials.
-* Store service credentials and other secrets only in approved secure systems.
-* Report suspected compromise immediately.
+### Responsibilities
 
-Privileged access must be granted, reviewed, and revoked according to the organization's access management procedures.
+{% tabs %}
+{% tab title="Employees" %}
+* Follow this policy and protect your passwords.
+* Use only approved sign-in, reset, and recovery methods.
+* Report suspected exposure or unauthorized access promptly.
+{% endtab %}
 
-### 10. Password Reset and Account Recovery
+{% tab title="IT" %}
+**IT Department**
 
-Password resets and account recovery must be completed through approved company processes.
+* Set up password and authentication controls in supported systems.
+* Maintain the approved reset and account recovery procedures.
+* Verify a user's identity before changing credentials, and support authentication issues.
+{% endtab %}
 
-Employees must:
+{% tab title="Security" %}
+**Information Security team**
 
-* Use the official password reset portal or approved support channel.
-* Complete the required identity verification steps.
-* Protect recovery codes and verification methods.
-* Contact IT Support when self-service recovery is unavailable.
-* Follow additional instructions provided during a suspected account compromise.
+* Define and review password security standards.
+* Assess password-related risks.
+* Lead the response to suspected credential compromise, and recommend improvements.
+{% endtab %}
 
-IT personnel must verify the user's identity according to the approved recovery procedure before making changes to account credentials or authentication methods.
+{% tab title="Managers" %}
+**Managers and system owners**
 
-Refer to the **How to Reset Your Password** guide for step-by-step instructions.
+* Make sure access to systems and applications matches business needs.
+* Follow the access management procedures when granting or removing access.
+{% endtab %}
+{% endtabs %}
 
-### 11. Default Passwords and Initial Account Setup
+### Exceptions
 
-Default or temporary credentials must be handled securely.
+An exception to this policy needs a documented reason, a risk assessment where appropriate, approval from the designated IT or Information Security authority, any extra security controls that are required, and a review or expiry date.
 
-* Employees must change temporary passwords when prompted or required by company procedures.
-* Default credentials must not remain in place on systems where they are required to be changed.
-* IT administrators must configure systems using approved secure deployment practices.
-* Temporary credentials must be delivered through an approved secure method.
-* Initial account activation must follow the organization's identity verification process.
+{% hint style="warning" %}
+Never bypass a password requirement or authentication control yourself. Ask for an exception through the proper process first.
+{% endhint %}
 
-Passwords must not be transmitted through unsecured channels or included in general onboarding documentation.
+> Not following this policy can put the company at risk and may lead to corrective or disciplinary action, in line with company procedures and the law. Report suspected violations through the IT, security, HR, or compliance channel.
 
-### 12. Suspected Password Compromise
+### Related Pages
 
-A password may be considered compromised if it has been disclosed, exposed through a data breach, entered into a suspicious website, or used in an unauthorized login attempt.
+{% content-ref url="../how-to-guides/how-to-reset-your-password.md" %}
+[how-to-reset-your-password.md](../how-to-guides/how-to-reset-your-password.md)
+{% endcontent-ref %}
 
-If compromise is suspected, employees must:
+{% content-ref url="../how-to-guides/how-to-troubleshoot-login-issues.md" %}
+[how-to-troubleshoot-login-issues.md](../how-to-guides/how-to-troubleshoot-login-issues.md)
+{% endcontent-ref %}
 
-1. Report the issue immediately through the designated IT or security channel.
-2. Change the affected password using the official process, if safe and possible.
-3. Follow instructions to secure the account and any related systems.
-4. Complete any required MFA recovery or re-enrollment.
-5. Cooperate with authorized security investigations.
-
-The security team may require additional measures, such as revoking active sessions, resetting related credentials, or temporarily restricting access.
-
-Employees must not delay reporting an incident because they believe the issue was caused by their own mistake.
-
-### 13. Roles and Responsibilities
-
-#### Employees and Authorized Users
-
-Employees are responsible for:
-
-* Following this policy.
-* Creating and protecting passwords in accordance with company requirements.
-* Using approved authentication and recovery methods.
-* Reporting suspected credential exposure or unauthorized access promptly.
-
-#### IT Department
-
-The IT Department is responsible for:
-
-* Configuring password and authentication controls in supported systems.
-* Maintaining approved password reset and account recovery procedures.
-* Providing guidance and support for authentication issues.
-* Applying appropriate access controls and security configurations.
-
-#### Information Security Team
-
-Where applicable, the Information Security team is responsible for:
-
-* Defining and reviewing password security standards.
-* Assessing password-related risks.
-* Coordinating responses to suspected credential compromise.
-* Recommending improvements to authentication controls.
-
-#### Managers and System Owners
-
-Managers and system owners are responsible for ensuring that access to systems and applications is appropriate for business requirements and follows approved access management procedures.
-
-### 14. Compliance and Policy Violations
-
-Failure to comply with this policy may expose the organization to security risks and may result in corrective or disciplinary action in accordance with company procedures and applicable law.
-
-Suspected violations should be reported through the designated IT, security, HR, or compliance channel.
-
-Exceptions to this policy must be documented, assessed for risk, and approved by the authorized person or team before implementation.
-
-### 15. Exceptions
-
-Any exception to the password requirements must:
-
-* Have a documented business or technical justification.
-* Include a risk assessment where appropriate.
-* Be approved by the designated IT or Information Security authority.
-* Include compensating security controls where necessary.
-* Have a defined review date or expiration where appropriate.
-
-Employees must not independently bypass password requirements or authentication controls.
-
-### 16. Related Documentation
-
-Refer to the following documents for additional guidance:
-
-* **How to Reset Your Password** — Step-by-step password recovery instructions.
-* **How to Troubleshoot Login Issues** — Guidance for resolving authentication problems.
-* **Company Policies** — General employee and IT security responsibilities.
-* **Access Control Policy** — Requirements for account permissions and authorization.
-* **Multifactor Authentication Standard** — Requirements for additional authentication controls.
-* **Incident Response Policy** — Procedures for reporting and responding to security incidents.
-
-***
-
-**Document Owner:** \[IT / Information Security Department]
-
-**Policy Type:** IT Policies and Standards
-
-**Version:** 1.0
-
-**Effective Date:** \[Date]
-
-**Last Reviewed:** \[Date]
-
-**Next Review Date:** \[Date]
-
-**Approval Authority:** \[Authorized Approver]
+{% content-ref url="access-control-policy.md" %}
+[access-control-policy.md](access-control-policy.md)
+{% endcontent-ref %}
