@@ -1,6 +1,6 @@
 # Password Policy
 
-#### 1. Overview <a href="#id-1.-overview" id="id-1.-overview"></a>
+### 1. Overview
 
 The Password Policy of **\[Company Name]** establishes the requirements for creating, using, protecting, and managing passwords for company accounts, applications, devices, and information systems.
 
@@ -8,7 +8,7 @@ Passwords are a critical component of access control and information security. W
 
 All employees, contractors, and authorized users must follow this policy when accessing company resources.
 
-#### 2. Purpose <a href="#id-2.-purpose" id="id-2.-purpose"></a>
+### 2. Purpose
 
 The purpose of this policy is to:
 
@@ -19,7 +19,7 @@ The purpose of this policy is to:
 * Define employee and IT responsibilities for password management.
 * Support the organization's information security and compliance requirements.
 
-#### 3. Scope <a href="#id-3.-scope" id="id-3.-scope"></a>
+### 3. Scope
 
 This policy applies to all authorized users who access company-managed or company-approved resources, including:
 
@@ -34,11 +34,11 @@ This policy applies to all authorized users who access company-managed or compan
 
 Where a system uses an alternative authentication method, such as passkeys or certificate-based authentication, the applicable system-specific security standard must be followed.
 
-#### 4. Password Requirements <a href="#id-4.-password-requirements" id="id-4.-password-requirements"></a>
+### 4. Password Requirements
 
 All passwords must comply with the requirements established by the company's identity management system and applicable security standards.
 
-**4.1 Password Length and Strength**
+#### 4.1 Password Length and Strength
 
 * Use long, unique passwords or passphrases.
 * Follow the minimum length and other requirements configured by the company.
@@ -49,7 +49,7 @@ All passwords must comply with the requirements established by the company's ide
 
 **Company Standard:** \[Insert Approved Minimum Password Length and Complexity Requirements]
 
-**4.2 Password Uniqueness**
+#### 4.2 Password Uniqueness
 
 * Use a unique password for each company account where passwords are required.
 * Never reuse company passwords for personal accounts or external services.
@@ -58,7 +58,7 @@ All passwords must comply with the requirements established by the company's ide
 
 Password reuse increases the risk that a compromise of one account could affect other accounts.
 
-**4.3 Password Confidentiality**
+#### 4.3 Password Confidentiality
 
 Employees must:
 
@@ -71,7 +71,7 @@ Employees must:
 
 IT Support must use approved identity verification and account recovery procedures rather than asking employees to disclose their existing passwords.
 
-#### 5. Password Creation Guidelines <a href="#id-5.-password-creation-guidelines" id="id-5.-password-creation-guidelines"></a>
+### 5. Password Creation Guidelines
 
 When creating a password, employees should:
 
@@ -83,7 +83,7 @@ When creating a password, employees should:
 
 Password requirements may differ for standard user accounts, service accounts, administrative accounts, and systems with specific technical limitations.
 
-#### 6. Password Changes and Expiration <a href="#id-6.-password-changes-and-expiration" id="id-6.-password-changes-and-expiration"></a>
+### 6. Password Changes and Expiration
 
 Passwords must be changed when required by the company's identity management system, a system-specific security requirement, or an authorized security response.
 
@@ -98,7 +98,7 @@ Routine password changes should follow the organization's approved authenticatio
 
 When a password is compromised, the response may also require revoking active sessions, reviewing account activity, resetting affected credentials, and completing additional security checks.
 
-#### 7. Multifactor Authentication (MFA) <a href="#id-7.-multifactor-authentication-mfa" id="id-7.-multifactor-authentication-mfa"></a>
+### 7. Multifactor Authentication (MFA)
 
 Multifactor authentication provides an additional layer of protection beyond a password.
 
@@ -113,7 +113,7 @@ Where MFA is supported and required, employees must:
 
 MFA does not eliminate the need for strong, unique passwords where password authentication is used.
 
-#### 8. Password Storage and Management <a href="#id-8.-password-storage-and-management" id="id-8.-password-storage-and-management"></a>
+### 8. Password Storage and Management
 
 Passwords and other authentication secrets must be stored and managed securely.
 
@@ -128,7 +128,7 @@ The following requirements apply:
 
 Where technical systems support it, passwords must be protected using appropriate secure authentication mechanisms and must never be stored in plaintext.
 
-#### 9. Administrative and Privileged Accounts <a href="#id-9.-administrative-and-privileged-accounts" id="id-9.-administrative-and-privileged-accounts"></a>
+### 9. Administrative and Privileged Accounts
 
 Accounts with elevated permissions require additional protection because their compromise may affect multiple systems or sensitive resources.
 
@@ -144,7 +144,7 @@ Users with administrative privileges must:
 
 Privileged access must be granted, reviewed, and revoked according to the organization's access management procedures.
 
-#### 10. Password Reset and Account Recovery <a href="#id-10.-password-reset-and-account-recovery" id="id-10.-password-reset-and-account-recovery"></a>
+### 10. Password Reset and Account Recovery
 
 Password resets and account recovery must be completed through approved company processes.
 
@@ -160,7 +160,7 @@ IT personnel must verify the user's identity according to the approved recovery 
 
 Refer to the **How to Reset Your Password** guide for step-by-step instructions.
 
-#### 11. Default Passwords and Initial Account Setup <a href="#id-11.-default-passwords-and-initial-account-setup" id="id-11.-default-passwords-and-initial-account-setup"></a>
+### 11. Default Passwords and Initial Account Setup
 
 Default or temporary credentials must be handled securely.
 
@@ -172,7 +172,7 @@ Default or temporary credentials must be handled securely.
 
 Passwords must not be transmitted through unsecured channels or included in general onboarding documentation.
 
-#### 12. Suspected Password Compromise <a href="#id-12.-suspected-password-compromise" id="id-12.-suspected-password-compromise"></a>
+### 12. Suspected Password Compromise
 
 A password may be considered compromised if it has been disclosed, exposed through a data breach, entered into a suspicious website, or used in an unauthorized login attempt.
 
@@ -188,9 +188,9 @@ The security team may require additional measures, such as revoking active sessi
 
 Employees must not delay reporting an incident because they believe the issue was caused by their own mistake.
 
-#### 13. Roles and Responsibilities <a href="#id-13.-roles-and-responsibilities" id="id-13.-roles-and-responsibilities"></a>
+### 13. Roles and Responsibilities
 
-**Employees and Authorized Users**
+#### Employees and Authorized Users
 
 Employees are responsible for:
 
@@ -199,7 +199,7 @@ Employees are responsible for:
 * Using approved authentication and recovery methods.
 * Reporting suspected credential exposure or unauthorized access promptly.
 
-**IT Department**
+#### IT Department
 
 The IT Department is responsible for:
 
@@ -208,7 +208,7 @@ The IT Department is responsible for:
 * Providing guidance and support for authentication issues.
 * Applying appropriate access controls and security configurations.
 
-**Information Security Team**
+#### Information Security Team
 
 Where applicable, the Information Security team is responsible for:
 
@@ -217,11 +217,11 @@ Where applicable, the Information Security team is responsible for:
 * Coordinating responses to suspected credential compromise.
 * Recommending improvements to authentication controls.
 
-**Managers and System Owners**
+#### Managers and System Owners
 
 Managers and system owners are responsible for ensuring that access to systems and applications is appropriate for business requirements and follows approved access management procedures.
 
-#### 14. Compliance and Policy Violations <a href="#id-14.-compliance-and-policy-violations" id="id-14.-compliance-and-policy-violations"></a>
+### 14. Compliance and Policy Violations
 
 Failure to comply with this policy may expose the organization to security risks and may result in corrective or disciplinary action in accordance with company procedures and applicable law.
 
@@ -229,7 +229,7 @@ Suspected violations should be reported through the designated IT, security, HR,
 
 Exceptions to this policy must be documented, assessed for risk, and approved by the authorized person or team before implementation.
 
-#### 15. Exceptions <a href="#id-15.-exceptions" id="id-15.-exceptions"></a>
+### 15. Exceptions
 
 Any exception to the password requirements must:
 
@@ -241,7 +241,7 @@ Any exception to the password requirements must:
 
 Employees must not independently bypass password requirements or authentication controls.
 
-#### 16. Related Documentation <a href="#id-16.-related-documentation" id="id-16.-related-documentation"></a>
+### 16. Related Documentation
 
 Refer to the following documents for additional guidance:
 

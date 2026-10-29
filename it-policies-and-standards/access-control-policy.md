@@ -1,6 +1,6 @@
 # Access Control Policy
 
-#### 1. Overview <a href="#id-1.-overview" id="id-1.-overview"></a>
+### 1. Overview
 
 The Access Control Policy of **\[Company Name]** establishes the requirements for granting, managing, reviewing, and revoking access to company systems, applications, devices, networks, and information.
 
@@ -10,7 +10,7 @@ The company follows the principle of **least privilege**, which means users rece
 
 All employees, contractors, administrators, system owners, and other authorized users must comply with this policy.
 
-#### 2. Purpose <a href="#id-2.-purpose" id="id-2.-purpose"></a>
+### 2. Purpose
 
 The purpose of this policy is to:
 
@@ -22,7 +22,7 @@ The purpose of this policy is to:
 * Define procedures for access reviews and account removal.
 * Protect the confidentiality, integrity, and availability of company resources.
 
-#### 3. Scope <a href="#id-3.-scope" id="id-3.-scope"></a>
+### 3. Scope
 
 This policy applies to all company-managed or company-approved resources, including:
 
@@ -38,21 +38,21 @@ This policy applies to all company-managed or company-approved resources, includ
 
 This policy applies to employees, contractors, temporary staff, third-party service providers, and other individuals who are granted access to company resources.
 
-#### 4. Access Control Principles <a href="#id-4.-access-control-principles" id="id-4.-access-control-principles"></a>
+### 4. Access Control Principles
 
-**4.1 Least Privilege**
+#### 4.1 Least Privilege
 
 Users must receive only the permissions necessary to perform their assigned responsibilities.
 
 Additional permissions must be justified by a business requirement and approved through the designated process.
 
-**4.2 Need-to-Know**
+#### 4.2 Need-to-Know
 
 Access to confidential or sensitive information must be limited to individuals who require that information for legitimate business purposes.
 
 Being an employee of the company does not automatically authorize access to every internal document, application, or system.
 
-**4.3 Role-Based Access**
+#### 4.3 Role-Based Access
 
 Where practical, access should be assigned through predefined roles based on job responsibilities, department, or business function.
 
@@ -67,67 +67,38 @@ Examples include:
 
 Each role must have defined permissions appropriate to its responsibilities.
 
-**4.4 Separation of Duties**
+#### 4.4 Separation of Duties
 
 Critical activities should be divided between appropriate individuals or roles where necessary to reduce the risk of errors, misuse, or unauthorized transactions.
 
 For example, a person who creates a financial transaction may not be the same person who approves it, where separation of duties is required.
 
-**4.5 Accountability**
+#### 4.5 Accountability
 
 Access must be associated with an identifiable user or approved service identity wherever technically feasible.
 
 Shared accounts should be avoided unless there is an approved technical or operational requirement and appropriate accountability controls are in place.
 
-#### 5. Types of Access <a href="#id-5.-types-of-access" id="id-5.-types-of-access"></a>
+### 5. Types of Access
 
 Access permissions should be assigned according to the resource and the user's responsibilities.
 
-Access LevelDescriptionTypical Use
-
-Read Only
-
-Allows viewing information without modifying it.
-
-Viewing reports or documentation.
-
-Standard User
-
-Allows approved day-to-day activities.
-
-Using business applications.
-
-Contributor
-
-Allows creating or modifying authorized content.
-
-Editing documents or project files.
-
-Developer
-
-Allows approved development activities.
-
-Accessing code repositories and development tools.
-
-Administrator
-
-Allows privileged configuration or management activities.
-
-Managing systems or user accounts.
-
-Restricted Access
-
-Allows access only to specifically authorized resources.
-
-Sensitive records or confidential projects.
+| Access Level      | Description                                               | Typical Use                                        |
+| ----------------- | --------------------------------------------------------- | -------------------------------------------------- |
+| Read Only         | Allows viewing information without modifying it.          | Viewing reports or documentation.                  |
+| Standard User     | Allows approved day-to-day activities.                    | Using business applications.                       |
+| Contributor       | Allows creating or modifying authorized content.          | Editing documents or project files.                |
+| Developer         | Allows approved development activities.                   | Accessing code repositories and development tools. |
+| Administrator     | Allows privileged configuration or management activities. | Managing systems or user accounts.                 |
+| Restricted Access | Allows access only to specifically authorized resources.  | Sensitive records or confidential projects.        |
 
 The actual permissions associated with each access level must be defined by the relevant system owner.
 
-#### 6. Access Request and Approval Process <a href="#id-6.-access-request-and-approval-process" id="id-6.-access-request-and-approval-process"></a>
+### 6. Access Request and Approval Process
 
 Access to company systems must be requested and approved through the organization's designated process.
 
-**Step 1: Submit an Access Request**
+#### Step 1: Submit an Access Request
 
 Employees or their authorized managers must submit a request through the approved IT helpdesk or access management portal.
 
@@ -145,7 +116,7 @@ The request should include:
 
 Requests must contain sufficient information for the responsible team to determine whether the access is appropriate.
 
-**Step 2: Obtain Approval**
+#### Step 2: Obtain Approval
 
 The request must be reviewed by the appropriate approver according to company procedures.
 
@@ -159,7 +130,7 @@ Depending on the resource, approval may be required from:
 
 Privileged access and access to sensitive information may require additional approval.
 
-**Step 3: Verify the Request**
+#### Step 3: Verify the Request
 
 The responsible IT team must confirm that:
 
@@ -171,7 +142,7 @@ The responsible IT team must confirm that:
 
 Incomplete or unauthorized requests must be returned for clarification or handled according to the organization's request procedures.
 
-**Step 4: Provision Access**
+#### Step 4: Provision Access
 
 After approval, the authorized IT team or system owner may:
 
@@ -183,7 +154,7 @@ After approval, the authorized IT team or system owner may:
 
 Access must not be granted before required approvals are completed, except under a formally approved emergency access procedure.
 
-**Step 5: Verify Access**
+#### Step 5: Verify Access
 
 The requester or responsible team should confirm that:
 
@@ -194,11 +165,11 @@ The requester or responsible team should confirm that:
 
 Refer to **How to Request Software Access** for related software access procedures.
 
-#### 7. User Account Management <a href="#id-7.-user-account-management" id="id-7.-user-account-management"></a>
+### 7. User Account Management
 
 All user accounts must be managed according to approved identity and access management procedures.
 
-**7.1 Account Creation**
+#### 7.1 Account Creation
 
 * Accounts must be created only for authorized users or approved system purposes.
 * User identities must be verified according to company procedures.
@@ -206,7 +177,7 @@ All user accounts must be managed according to approved identity and access mana
 * Initial credentials and activation instructions must be delivered securely.
 * Required authentication controls must be configured.
 
-**7.2 Account Modification**
+#### 7.2 Account Modification
 
 When an employee changes departments, roles, projects, or responsibilities:
 
@@ -215,7 +186,7 @@ When an employee changes departments, roles, projects, or responsibilities:
 * New permissions must be approved before they are granted.
 * Changes must be recorded according to the organization's access management process.
 
-**7.3 Account Deactivation**
+#### 7.3 Account Deactivation
 
 Accounts must be disabled or access revoked when a user no longer requires access.
 
@@ -229,7 +200,7 @@ This may occur when:
 
 For employee departures, IT and HR must coordinate access removal according to the approved offboarding process and applicable requirements.
 
-#### 8. Privileged Access Management <a href="#id-8.-privileged-access-management" id="id-8.-privileged-access-management"></a>
+### 8. Privileged Access Management
 
 Privileged accounts can make significant changes to systems, data, and security configurations. They therefore require additional controls.
 
@@ -247,7 +218,7 @@ The following requirements apply:
 
 Employees must not attempt to obtain elevated permissions by bypassing established access controls.
 
-#### 9. Authentication and Access Security <a href="#id-9.-authentication-and-access-security" id="id-9.-authentication-and-access-security"></a>
+### 9. Authentication and Access Security
 
 Users must authenticate through approved company mechanisms before accessing protected resources.
 
@@ -263,7 +234,7 @@ Employees must:
 
 Systems must enforce appropriate authentication and session controls based on their sensitivity and business requirements.
 
-#### 10. Access Reviews and Recertification <a href="#id-10.-access-reviews-and-recertification" id="id-10.-access-reviews-and-recertification"></a>
+### 10. Access Reviews and Recertification
 
 Access permissions must be reviewed periodically to confirm that they remain appropriate.
 
@@ -283,7 +254,7 @@ System owners and designated managers must participate in access reviews where r
 
 **Review Frequency:** \[Insert Approved Review Schedule]
 
-#### 11. Third-Party and Contractor Access <a href="#id-11.-third-party-and-contractor-access" id="id-11.-third-party-and-contractor-access"></a>
+### 11. Third-Party and Contractor Access
 
 Third-party users and contractors may receive access only when there is an approved business requirement.
 
@@ -298,7 +269,7 @@ Their access must:
 
 Third parties must comply with applicable contractual, confidentiality, and information security requirements.
 
-#### 12. Temporary and Emergency Access <a href="#id-12.-temporary-and-emergency-access" id="id-12.-temporary-and-emergency-access"></a>
+### 12. Temporary and Emergency Access
 
 Temporary or emergency access must be controlled and documented.
 
@@ -314,7 +285,7 @@ The process must include, where applicable:
 
 Emergency access must not become a permanent alternative to the normal approval process.
 
-#### 13. Logging and Monitoring <a href="#id-13.-logging-and-monitoring" id="id-13.-logging-and-monitoring"></a>
+### 13. Logging and Monitoring
 
 Access-related events should be logged and monitored where supported and required by the organization's security standards.
 
@@ -331,9 +302,9 @@ Logs must be protected against unauthorized modification and retained according 
 
 Suspected unauthorized access must be reported through the designated security incident process.
 
-#### 14. Access Control Responsibilities <a href="#id-14.-access-control-responsibilities" id="id-14.-access-control-responsibilities"></a>
+### 14. Access Control Responsibilities
 
-**Employees and Authorized Users**
+#### Employees and Authorized Users
 
 Employees are responsible for:
 
@@ -343,7 +314,7 @@ Employees are responsible for:
 * Avoiding attempts to access restricted resources.
 * Reporting unauthorized access or suspicious activity.
 
-**IT Department**
+#### IT Department
 
 The IT Department is responsible for:
 
@@ -353,7 +324,7 @@ The IT Department is responsible for:
 * Applying appropriate technical access controls.
 * Disabling or modifying access when authorized.
 
-**Managers**
+#### Managers
 
 Managers are responsible for:
 
@@ -362,7 +333,7 @@ Managers are responsible for:
 * Informing the relevant teams about role changes and departures.
 * Participating in required access reviews.
 
-**System and Data Owners**
+#### System and Data Owners
 
 System and data owners are responsible for:
 
@@ -371,11 +342,11 @@ System and data owners are responsible for:
 * Reviewing permissions according to the established schedule.
 * Ensuring that access restrictions reflect business and security requirements.
 
-**Information Security Team**
+#### Information Security Team
 
 Where applicable, the Information Security team is responsible for defining access control standards, advising on risk, and coordinating investigations into suspected unauthorized access.
 
-#### 15. Policy Violations and Exceptions <a href="#id-15.-policy-violations-and-exceptions" id="id-15.-policy-violations-and-exceptions"></a>
+### 15. Policy Violations and Exceptions
 
 Unauthorized access, privilege misuse, account sharing, or deliberate bypassing of access controls may result in corrective or disciplinary action in accordance with company procedures and applicable law.
 
@@ -389,7 +360,7 @@ Exceptions must be:
 
 Employees must not independently bypass access restrictions or grant permissions outside their authority.
 
-#### 16. Related Documentation <a href="#id-16.-related-documentation" id="id-16.-related-documentation"></a>
+### 16. Related Documentation
 
 Refer to the following documents for additional guidance:
 
@@ -414,5 +385,7 @@ Refer to the following documents for additional guidance:
 **Last Reviewed:** \[Date]
 
 **Next Review Date:** \[Date]
+
+**Approval Authority:** \[Authorized Approver]
 
 **Approval Authority:** \[Authorized Approver]

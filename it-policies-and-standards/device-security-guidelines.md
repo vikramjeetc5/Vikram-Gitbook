@@ -1,6 +1,6 @@
 # Device Security Guidelines
 
-#### 1. Overview <a href="#id-1.-overview" id="id-1.-overview"></a>
+### 1. Overview
 
 The Device Security Guidelines of **\[Company Name]** establish the minimum security requirements for protecting company-issued devices and authorized personal devices used for business purposes.
 
@@ -8,7 +8,7 @@ Devices are essential for accessing company applications, networks, communicatio
 
 All employees, contractors, and authorized users must follow these guidelines to maintain a secure working environment and protect company resources.
 
-#### 2. Purpose <a href="#id-2.-purpose" id="id-2.-purpose"></a>
+### 2. Purpose
 
 The purpose of these guidelines is to:
 
@@ -19,7 +19,7 @@ The purpose of these guidelines is to:
 * Define employee responsibilities for device security.
 * Establish procedures for reporting lost devices and suspected security incidents.
 
-#### 3. Scope <a href="#id-3.-scope" id="id-3.-scope"></a>
+### 3. Scope
 
 These guidelines apply to devices used to access company resources, including:
 
@@ -32,7 +32,7 @@ These guidelines apply to devices used to access company resources, including:
 
 Additional technical requirements may apply to servers, development environments, administrative workstations, and other specialized systems.
 
-#### 4. General Device Security Requirements <a href="#id-4.-general-device-security-requirements" id="id-4.-general-device-security-requirements"></a>
+### 4. General Device Security Requirements
 
 All employees must:
 
@@ -48,7 +48,7 @@ All employees must:
 
 Employees must not bypass security restrictions or disable required protective controls without authorization.
 
-#### 5. Device Access and Authentication <a href="#id-5.-device-access-and-authentication" id="id-5.-device-access-and-authentication"></a>
+### 5. Device Access and Authentication
 
 Access to company devices must be protected by approved authentication mechanisms.
 
@@ -66,7 +66,7 @@ Devices must be configured to lock automatically after the period defined by com
 
 **Approved Screen-Lock Timeout:** \[Insert Company Standard]
 
-#### 6. Operating System and Software Updates <a href="#id-6.-operating-system-and-software-updates" id="id-6.-operating-system-and-software-updates"></a>
+### 6. Operating System and Software Updates
 
 Keeping devices updated helps protect them against known security vulnerabilities and software defects.
 
@@ -85,7 +85,7 @@ The IT Department is responsible for defining update policies, managing centrall
 
 **Security Update Requirement:** \[Insert Approved Patch Management Standard]
 
-#### 7. Antivirus and Endpoint Protection <a href="#id-7.-antivirus-and-endpoint-protection" id="id-7.-antivirus-and-endpoint-protection"></a>
+### 7. Antivirus and Endpoint Protection
 
 Company devices must use the security software and protective controls required by the organization.
 
@@ -108,7 +108,7 @@ Employees must:
 
 If a device displays a suspected malware alert, follow the company's incident response instructions and contact IT Support or the security team.
 
-#### 8. Encryption and Data Protection <a href="#id-8.-encryption-and-data-protection" id="id-8.-encryption-and-data-protection"></a>
+### 8. Encryption and Data Protection
 
 Company information stored on devices must be protected according to its sensitivity and the organization's data protection requirements.
 
@@ -126,7 +126,7 @@ Full-disk encryption or other approved encryption controls must be enabled on de
 
 Employees must not attempt to bypass encryption controls or independently remove company security protections.
 
-#### 9. Physical Security <a href="#id-9.-physical-security" id="id-9.-physical-security"></a>
+### 9. Physical Security
 
 Employees are responsible for taking reasonable precautions to protect company devices from loss, theft, damage, and unauthorized access.
 
@@ -144,7 +144,7 @@ When travelling, employees should take additional precautions to prevent devices
 
 Any loss, theft, or suspected tampering must be reported promptly.
 
-#### 10. Network and Remote Work Security <a href="#id-10.-network-and-remote-work-security" id="id-10.-network-and-remote-work-security"></a>
+### 10. Network and Remote Work Security
 
 Devices used outside the office must continue to meet company security requirements.
 
@@ -162,7 +162,7 @@ Employees must not connect unauthorized devices to company networks or attempt t
 
 Refer to **How to Configure VPN** for the approved VPN setup procedure.
 
-#### 11. Software Installation and Device Configuration <a href="#id-11.-software-installation-and-device-configuration" id="id-11.-software-installation-and-device-configuration"></a>
+### 11. Software Installation and Device Configuration
 
 Only approved software and configurations may be used on company-managed devices.
 
@@ -179,7 +179,7 @@ The IT Department may restrict software installation, administrative privileges,
 
 Refer to **How to Request Software Access** for the approved software request process.
 
-#### 12. Removable Media and External Devices <a href="#id-12.-removable-media-and-external-devices" id="id-12.-removable-media-and-external-devices"></a>
+### 12. Removable Media and External Devices
 
 Removable media can introduce malware or expose confidential information if not handled securely.
 
@@ -194,7 +194,7 @@ Employees must:
 
 Any exception must be approved through the designated process.
 
-#### 13. Personal Devices and BYOD <a href="#id-13.-personal-devices-and-byod" id="id-13.-personal-devices-and-byod"></a>
+### 13. Personal Devices and BYOD
 
 Bring Your Own Device (BYOD) arrangements are permitted only where authorized by company policy.
 
@@ -212,7 +212,7 @@ Where applicable, employees must understand the company's device management, mon
 
 **BYOD Policy Reference:** \[Insert Policy Link]
 
-#### 14. Lost, Stolen, or Compromised Devices <a href="#id-14.-lost-stolen-or-compromised-devices" id="id-14.-lost-stolen-or-compromised-devices"></a>
+### 14. Lost, Stolen, or Compromised Devices
 
 A lost, stolen, or potentially compromised device must be reported immediately through the designated IT or security reporting channel.
 
@@ -225,7 +225,7 @@ Examples include:
 * Company information may have been exposed.
 * A device's security settings appear to have been changed without authorization.
 
-**Required Actions**
+#### Required Actions
 
 1. Report the incident to IT Support or the security team promptly.
 2. Provide the device identification details and a description of what happened, if available.
@@ -239,7 +239,7 @@ The IT Department may remotely lock, locate, restrict, or wipe a managed device 
 
 **Helpdesk Portal:** \[Insert Helpdesk URL]
 
-#### 15. Device Return, Reassignment, and Disposal <a href="#id-15.-device-return-reassignment-and-disposal" id="id-15.-device-return-reassignment-and-disposal"></a>
+### 15. Device Return, Reassignment, and Disposal
 
 Company devices must be returned, reassigned, repaired, or disposed of through approved procedures.
 
@@ -254,9 +254,9 @@ Before a device is disposed of or transferred outside the organization, company 
 
 Employees must not independently sell, discard, or transfer company-owned devices.
 
-#### 16. Roles and Responsibilities <a href="#id-16.-roles-and-responsibilities" id="id-16.-roles-and-responsibilities"></a>
+### 16. Roles and Responsibilities
 
-**Employees and Authorized Users**
+#### Employees and Authorized Users
 
 Employees are responsible for:
 
@@ -266,7 +266,7 @@ Employees are responsible for:
 * Keeping required security controls enabled.
 * Reporting security incidents and device problems promptly.
 
-**IT Department**
+#### IT Department
 
 The IT Department is responsible for:
 
@@ -276,7 +276,7 @@ The IT Department is responsible for:
 * Providing technical support and security guidance.
 * Coordinating device recovery, reassignment, and disposal.
 
-**Information Security Team**
+#### Information Security Team
 
 Where applicable, the Information Security team is responsible for:
 
@@ -285,11 +285,11 @@ Where applicable, the Information Security team is responsible for:
 * Supporting investigations of suspected device compromise.
 * Coordinating incident response and recommending improvements.
 
-**Managers**
+#### Managers
 
 Managers are responsible for supporting compliance with device security requirements and notifying the appropriate teams when devices need to be issued, reassigned, or returned.
 
-#### 17. Compliance and Exceptions <a href="#id-17.-compliance-and-exceptions" id="id-17.-compliance-and-exceptions"></a>
+### 17. Compliance and Exceptions
 
 Failure to follow these guidelines may expose the organization to security risks and may result in corrective or disciplinary action in accordance with company procedures and applicable law.
 
@@ -297,7 +297,7 @@ Exceptions must be documented, justified, assessed for risk where appropriate, a
 
 Employees must not independently bypass security controls or make unauthorized changes to managed devices.
 
-#### 18. Related Documentation <a href="#id-18.-related-documentation" id="id-18.-related-documentation"></a>
+### 18. Related Documentation
 
 Refer to the following documents for additional guidance:
 
